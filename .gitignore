@@ -1,0 +1,14 @@
+*.aux
+*.log
+*.nav
+*.out
+*.pdf
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.mem
+*.o
+*.zip
+*.s
+.DS_Store
