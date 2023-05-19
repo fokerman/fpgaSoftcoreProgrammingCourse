@@ -1,0 +1,81 @@
+% TD2 - Guias
+
+% Tamaño
+\usepackage[a4paper]{geometry}
+\geometry{top=1.5cm, bottom=1.5cm, left=2.0cm, right=2.0cm}
+
+% Idioma y encoding
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,activeacute]{babel}
+
+% Fuentes
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb} % Para tener bigstar
+\usepackage{latexsym}
+
+% Otros
+\usepackage[dvips]{graphicx}
+\usepackage{enumerate}
+\usepackage{multirow}
+\usepackage{moreverb}
+\usepackage{multicol}
+\usepackage{framed}
+\usepackage{xspace}  % Para tener espacios luego de nuevos comandos si es necesario
+\usepackage[colorlinks=false, linkcolor=black, bookmarks=false, bookmarksopen=false]{hyperref}
+\usepackage{xcolor}
+\usepackage{colortbl}
+
+% Colores
+\definecolor{verdeuca}{rgb}{0.0,0.48,0.54}
+\definecolor{naranjauca}{rgb}{1,0.48,0.0}
+\definecolor{AzulClaro}{rgb}{.31,.506,.741}
+\definecolor{Gris}{gray}{0.8}
+\definecolor{Celeste}{rgb}{.255,.41,.884}
+\definecolor{Rojo}{rgb}{1, 0, 0}
+\definecolor{a}{rgb}{0.0, 0.53, 0.74}
+\definecolor{r}{rgb}{0.89, 0.0, 0.13}
+\definecolor{v}{rgb}{0.0, 0.5, 0.0}
+\definecolor{y}{rgb}{0.0, 0.5, 0.5}
+\definecolor{rojo}{HTML}{F1521B}
+\definecolor{verde}{HTML}{80CD29}
+\definecolor{amarillo}{HTML}{FABC09}
+\definecolor{azul}{HTML}{00ADF1}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
+% Contador de ejercicios
+\newcounter{EjNum}
+
+% Definicion entorno de notes
+\newenvironment{notes}
+{
+    \begin{center}
+    \begin{minipage}{0.8\textwidth}
+}{
+    \end{minipage}
+    \end{center}
+}
+
+% Definicion entorno de ejercicios
+\newenvironment{exercise}[1][]
+{ 
+    \addtocounter{EjNum}{1}
+    \noindent \textbf{Ejercicio \theEjNum}\textbf{#1}\par
+}
+{
+    \bigskip\par
+
+}
+
+% Definicion entorno de items
+\newenvironment{items}
+{
+    \par\medskip
+    \begin{minipage}{0.9\textwidth}
+    \begin{enumerate}[a.]\itemsep=-\parsep
+}{
+    \end{enumerate}
+    \end{minipage}
+    \par\medskip
+}

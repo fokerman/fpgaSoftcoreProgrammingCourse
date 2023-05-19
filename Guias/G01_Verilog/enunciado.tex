@@ -1,0 +1,123 @@
+% === G01 - Guia de ejercicios - Verilog ===
+% David Alejandro Gonzalez Marquez
+% fokerman@gmail.com
+% https://github.com/fokerman/fpgaSoftcoreProgrammingCourse
+
+\documentclass[a4paper,11pt]{article}
+\usepackage{../common/commands}
+
+\title{Guía de ejercicios\\ 
+\large{Verilog}}
+\author{Materia: Programación de softcores en FPGAs\\
+Programa de Profesoras/es Visitantes}
+\date{}
+
+\usepackage{todonotes}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+    \scriptsize Material disponible en: \url{https://github.com/fokerman/fpgaSoftcoreProgrammingCourse}
+\end{center}
+
+\begin{notes}
+Los siguientes ejercicios están pensados como referencia para practicar la implementación de módulos en \texttt{verilog}.
+Se recomienda seguir los ejercicios en orden implementando los módulos pedidos y un \emph{testbench} para probar su correcto funcionamiento.
+Adicionalmente, para los casos más simples pueden agregar marcas de tiempo en el código para simular diferentes temporizaciones.
+\end{notes}
+
+\bigskip
+
+\begin{exercise}%[$\bigstar$]
+\noindent Módulos combinacionales básicos:
+\begin{enumerate}
+\setlength\itemsep{0cm}
+\item Implementar un multiplexor de 16 entradas y 4 líneas de control.
+\item Usando la implementación anterior construir un multiplexor de 32 entradas y 5 líneas de control.
+\item Construir un circuito verificador de paridad de 8 bits.
+\end{enumerate}
+\end{exercise}
+
+\begin{exercise}%[$\bigstar$]
+\noindent Módulos aritméticos básicos:
+\begin{enumerate}
+\setlength\itemsep{0cm}
+\item Armar el circuito de un sumador simple usando compuertas como primitivas.
+\item Usando el sumador anterior armar un sumador completo.
+\item Usando los circuitos anteriores armar un sumador de 8 bits.
+\item Construir un sumador de 8 bits usando descripción de comportamiento. Comprar el resultado con la implementación anterior.
+\item Extender el sumador de 8 bits anterior a 32 bits. Comparar el resultado entre las dos implementaciones.
+\item Construir un circuito multiplicador con entradas de 8 bits y salida de 16 bits usando múltiples sumadores.
+\item Construir un circuito multiplicador con entradas de 8 bits y salida de 16 bits usando registros de desplazamiento.
+\end{enumerate}
+\end{exercise}
+
+\begin{exercise}%[$\bigstar$]
+\noindent Módulos aritméticos generales:
+\begin{enumerate}
+\item Implementar una ALU de 8 bits que permita realizar las siguientes operaciones: suma, resta, not and, or, xor, shift lógico y aritmético a derecha e izquierda.
+\item Modificar el circuito anterior para agregar las Flags: Carry, Zero, Overflow, Negative, Parity.
+\item Usando el código anterior proponer una ALU vectorial, que soporte las mismas operaciones pero sobre varios datos al mismo tiempo.
+La misma debe soportar cuatro datos de 8 bits, dos datos de 16 bits o un dato de 32 bits.
+\end{enumerate}
+\end{exercise}
+
+\newpage
+
+\begin{exercise}%[$\bigstar$]
+\noindent Módulos contadores:
+\begin{enumerate}
+\item Construir un circuito contador de 8 bits, tal que por cada ciclo de clock aumente en uno el valor del contador.
+\item Modificar el circuito anterior para extenderlo a 32 bits y que aumente de a 3 unidades.
+\item Modificar el circuito anterior para agregarle una señal de reset asincrónica y un valor de inicio arbitrario.
+\item Implementar un contador gray de 5 bits.
+\end{enumerate}
+\end{exercise}
+
+\begin{exercise}%[$\bigstar$]
+\noindent Módulos registros:
+\begin{enumerate}
+\item Implementar un registro de 8 bits con \texttt{reset} sincrónico y salida controlada por un buffer de tres estados.
+\item Modificar el circuito anterior y agregarle una señal de set sincrónico.
+\item Modificar el circuito anterior para que las señales de \texttt{reset} y set sean asincrónicas.
+\item Extender el diseño para soportar un registro de 32 bits.
+\item Agregar una señal para extender el signo de los 16 bits menos significativos del registro.
+\end{enumerate}
+\end{exercise}
+
+\begin{exercise}%[$\bigstar$]
+\noindent Módulos memorias:
+\begin{enumerate}
+\item Implementar un circuito que lea una memoria de 32 palabras de 8 bytes y exponga byte a byte en un bus de 8 bits. La memoria debe estar cargada inicialmente con datos leídos directamente del código. Proponer luego una variante que lea los datos de un archivo.
+\item Modificar el circuito anterior para exponer los bytes de forma serial desde el más significativo al menos significativo.
+\item Modificar el circuito y agregarle una señal de control para indicar el orden en que deben ser expuestos los bits de cada byte.
+\item Modificar el circuito anterior para agregar una nueva señal de control que indique el orden en que se leen los bytes, desde la dirección 0 a 31 o a la inversa.
+\item Modificar el circuito anterior para agregar una señal de \texttt{reset}.
+\item Modificar el circuito anterior para agregar un conjunto de señales que permitan setear el primer byte desde donde se va a leer.
+\item Modificar el circuito anterior para soportar que la indicación del primer byte que leer se tome del forma serial.
+\end{enumerate}
+\end{exercise}
+
+\begin{exercise}%[$\bigstar$]
+\noindent Módulos integradores:
+\begin{enumerate}
+\item Implementar un contador manual en decimal. Este dispositivo posee 4 botones denominados ``+1'', ``zero'', ``mem'' y ``show''. Además de una salida de 5 dígitos decimales, es decir 5 valores en BCD, que corresponden a 20 bits.
+El comportamiento de los botones será el siguiente: ``+1'', incrementa en 1 el valor del contador; ``zero'', resetea el contador a cero; ``mem'', memoriza el valor actual; y ``show'', muestra el último valor memorizado en el display mientras se lo este presionando.
+\begin{center}
+\includegraphics[scale=2.5]{img/integradores_contador.pdf}
+\end{center}
+\item Implementar un dispositivo que detecta el tamaño de los pulsos que llegan a la entrada y los expone el tamaño de cada uno en un display de 16 bits.
+El dispositivo posee dos botones, uno para aumentar y otro para disminuir la frecuencia de muestreo de la señal de entrada.
+\begin{center}
+\includegraphics[scale=2.5]{img/integradores_secuencia.pdf}
+\end{center}
+\item Implementar el juego \texttt{Simon}, este 4 botones y 4 leds como salidas en cada botón; las salidas reproducen una secuencia de encendido, donde en cada turno del juego una sola salida se enciende. El jugador debe seleccionar el mismo botón que se encendido para pasar de turno. En el próximo turno, se agrega un nuevo valor a la secuencia que el jugador debe reproducir. Si el jugador no presiona el botón correcto, el jugador pierde y los 4 leds se deben quedar titilando hasta que se presiona el botón de reset R, comenzando nuevamente el juego.
+\begin{center}
+\includegraphics[scale=2.5]{img/integradores_simon.pdf}
+\end{center}
+\end{enumerate}
+\end{exercise}
+
+\end{document}
