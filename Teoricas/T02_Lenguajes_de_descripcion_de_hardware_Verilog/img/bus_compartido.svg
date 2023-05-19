@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="57.148083mm"
+   height="64.895531mm"
+   viewBox="0 0 57.148083 64.895531"
+   version="1.1"
+   id="svg1753"
+   inkscape:version="1.2.2 (1:1.2.2+202212051552+b0a8486541)"
+   sodipodi:docname="bus_compartido.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1755"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.93806818"
+     inkscape:cx="-146.04482"
+     inkscape:cy="303.81587"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1750" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-143.47724,-68.244539)">
+    <g
+       id="g41560"
+       transform="translate(132.41237,65.275749)">
+      <g
+         id="g29762">
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 41.213795,11.812436 h 16.297924 v 6.719502 H 41.213795"
+           id="path881"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 57.511719,15.172187 H 68.080664"
+           id="path881-3" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 49.724494,6.1283506 V 11.812436"
+           id="path881-3-8" />
+        <path
+           id="rect905"
+           style="overflow:visible;fill:#ffffff;stroke:#000000;stroke-width:0.3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+           d="m 46.659775,8.4279912 6.768888,3.3844448 -6.768888,3.384444 z"
+           sodipodi:nodetypes="cccc" />
+        <rect
+           style="color:#000000;overflow:visible;fill:#000000;stroke:none;stroke-width:0.3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="rect25863"
+           width="3.0537517"
+           height="1.1846285"
+           x="35.818005"
+           y="11.220123" />
+        <path
+           id="rect25865"
+           style="overflow:visible;stroke-width:0.3;stroke-linejoin:round;paint-order:markers fill stroke"
+           d="m 38.120437,13.24662 v -2.868367 l 2.564191,1.434183 z"
+           sodipodi:nodetypes="cccc" />
+        <rect
+           style="color:#000000;overflow:visible;fill:#000000;stroke:none;stroke-width:0.3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="rect25863-3"
+           width="3.0537517"
+           height="1.1846285"
+           x="-40.684628"
+           y="-19.124252"
+           transform="scale(-1)" />
+        <path
+           id="rect25865-3"
+           style="overflow:visible;stroke-width:0.3;stroke-linejoin:round;paint-order:markers fill stroke"
+           d="m 38.382195,17.097755 v 2.868367 l -2.56419,-1.434183 z"
+           sodipodi:nodetypes="cccc" />
+        <rect
+           style="color:#000000;overflow:visible;fill:#ffffff;stroke:#000000;stroke-width:0.3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="rect26079"
+           width="22.272728"
+           height="17.748787"
+           x="11.214872"
+           y="6.2977939"
+           ry="3.7769506"
+           rx="3.7769506" />
+        <text
+           xml:space="preserve"
+           style="font-size:3.52777px;line-height:100%;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="22.307135"
+           y="16.438656"
+           id="text27246"><tspan
+             sodipodi:role="line"
+             id="tspan27244"
+             style="fill:#000000;stroke:none;stroke-width:0.264583px"
+             x="22.307135"
+             y="16.438656">Circuito A</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:3.52777px;line-height:100%;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="49.665665"
+           y="5.5405345"
+           id="text27246-5"><tspan
+             sodipodi:role="line"
+             id="tspan27244-1"
+             style="fill:#000000;stroke:none;stroke-width:0.264583px"
+             x="49.665665"
+             y="5.5405345">enA</tspan></text>
+      </g>
+      <g
+         id="g29762-0"
+         transform="translate(0,21.166667)">
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 41.213795,11.812436 h 16.297924 v 6.719502 H 41.213795"
+           id="path881-8"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 57.511719,15.172187 H 68.080664"
+           id="path881-3-7" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 49.724494,6.1283506 V 11.812436"
+           id="path881-3-8-6" />
+        <path
+           id="rect905-3"
+           style="overflow:visible;fill:#ffffff;stroke:#000000;stroke-width:0.3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+           d="m 46.659775,8.4279912 6.768888,3.3844448 -6.768888,3.384444 z"
+           sodipodi:nodetypes="cccc" />
+        <rect
+           style="color:#000000;overflow:visible;fill:#000000;stroke:none;stroke-width:0.3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="rect25863-5"
+           width="3.0537517"
+           height="1.1846285"
+           x="35.818005"
+           y="11.220123" />
+        <path
+           id="rect25865-0"
+           style="overflow:visible;stroke-width:0.3;stroke-linejoin:round;paint-order:markers fill stroke"
+           d="m 38.120437,13.24662 v -2.868367 l 2.564191,1.434183 z"
+           sodipodi:nodetypes="cccc" />
+        <rect
+           style="color:#000000;overflow:visible;fill:#000000;stroke:none;stroke-width:0.3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="rect25863-3-8"
+           width="3.0537517"
+           height="1.1846285"
+           x="-40.684628"
+           y="-19.124252"
+           transform="scale(-1)" />
+        <path
+           id="rect25865-3-0"
+           style="overflow:visible;stroke-width:0.3;stroke-linejoin:round;paint-order:markers fill stroke"
+           d="m 38.382195,17.097755 v 2.868367 l -2.56419,-1.434183 z"
+           sodipodi:nodetypes="cccc" />
+        <rect
+           style="color:#000000;overflow:visible;fill:#ffffff;stroke:#000000;stroke-width:0.3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="rect26079-4"
+           width="22.272728"
+           height="17.748787"
+           x="11.214872"
+           y="6.2977939"
+           ry="3.7769506"
+           rx="3.7769506" />
+        <text
+           xml:space="preserve"
+           style="font-size:3.52777px;line-height:100%;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="22.307135"
+           y="16.438656"
+           id="text27246-1"><tspan
+             sodipodi:role="line"
+             id="tspan27244-13"
+             style="fill:#000000;stroke:none;stroke-width:0.264583px"
+             x="22.307135"
+             y="16.438656">Circuito B</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:3.52777px;line-height:100%;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="49.665665"
+           y="5.5405345"
+           id="text27246-5-5"><tspan
+             sodipodi:role="line"
+             id="tspan27244-1-9"
+             style="fill:#000000;stroke:none;stroke-width:0.264583px"
+             x="49.665665"
+             y="5.5405345">enB</tspan></text>
+      </g>
+      <g
+         id="g29895"
+         transform="translate(0,42.333335)">
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 41.213795,11.812436 h 16.297924 v 6.719502 H 41.213795"
+           id="path29869"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 57.511719,15.172187 H 68.080664"
+           id="path29871" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 49.724494,6.1283506 V 11.812436"
+           id="path29873" />
+        <path
+           id="path29875"
+           style="overflow:visible;fill:#ffffff;stroke:#000000;stroke-width:0.3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+           d="m 46.659775,8.4279912 6.768888,3.3844448 -6.768888,3.384444 z"
+           sodipodi:nodetypes="cccc" />
+        <rect
+           style="color:#000000;overflow:visible;fill:#000000;stroke:none;stroke-width:0.3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="rect29877"
+           width="3.0537517"
+           height="1.1846285"
+           x="35.818005"
+           y="11.220123" />
+        <path
+           id="path29879"
+           style="overflow:visible;stroke-width:0.3;stroke-linejoin:round;paint-order:markers fill stroke"
+           d="m 38.120437,13.24662 v -2.868367 l 2.564191,1.434183 z"
+           sodipodi:nodetypes="cccc" />
+        <rect
+           style="color:#000000;overflow:visible;fill:#000000;stroke:none;stroke-width:0.3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="rect29881"
+           width="3.0537517"
+           height="1.1846285"
+           x="-40.684628"
+           y="-19.124252"
+           transform="scale(-1)" />
+        <path
+           id="path29883"
+           style="overflow:visible;stroke-width:0.3;stroke-linejoin:round;paint-order:markers fill stroke"
+           d="m 38.382195,17.097755 v 2.868367 l -2.56419,-1.434183 z"
+           sodipodi:nodetypes="cccc" />
+        <rect
+           style="color:#000000;overflow:visible;fill:#ffffff;stroke:#000000;stroke-width:0.3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="rect29885"
+           width="22.272728"
+           height="17.748787"
+           x="11.214872"
+           y="6.2977939"
+           ry="3.7769506"
+           rx="3.7769506" />
+        <text
+           xml:space="preserve"
+           style="font-size:3.52777px;line-height:100%;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="22.307135"
+           y="16.438656"
+           id="text29889"><tspan
+             sodipodi:role="line"
+             id="tspan29887"
+             style="fill:#000000;stroke:none;stroke-width:0.264583px"
+             x="22.307135"
+             y="16.438656">Circuito C</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:3.52777px;line-height:100%;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="49.665665"
+           y="5.5405345"
+           id="text29893"><tspan
+             sodipodi:role="line"
+             id="tspan29891"
+             style="fill:#000000;stroke:none;stroke-width:0.264583px"
+             x="49.665665"
+             y="5.5405345">enC</tspan></text>
+      </g>
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 68.080664,4.8259298 V 67.864321"
+         id="path29930" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:100%;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="64.029388"
+         y="67.298119"
+         id="text27246-5-9"><tspan
+           sodipodi:role="line"
+           id="tspan27244-1-90"
+           style="fill:#000000;stroke:none;stroke-width:0.264583px"
+           x="64.029388"
+           y="67.298119">Bus</tspan></text>
+    </g>
+  </g>
+</svg>
