@@ -136,7 +136,7 @@
     \item<1-> Herramientas mapean el código a librerías de \textbf{celdas de bajo nivel}.\\
     Construyen una \emph{netlist} de compuertas (gates) y cables (wires).
     \item<2-> Sobre la \emph{netlist} se resuelven los algoritmos de \textbf{\emph{placement} (ubicación)} y \textbf{\emph{routing} (ruteo)}.
-    \item<3-> \textcolor{verdeuca}{El código debe ser escrito para que sea facil de sintetizar, ya que no se puede garantizar encontrar una solución optima, ni siquiera una solución.}
+    \item<3-> \textcolor{verdeuca}{El código debe ser escrito para que sea fácil de sintetizar, ya que no se puede garantizar encontrar una solución óptima, ni siquiera una solución.}
     %     Sobre esta estructura se pueden realizar optimizaciones para encontrar una solución que mejore el tiempo, la latencia, el consumo o el tamaño.
     %   - Sin embargo, esto no garantiza una solución optima.
     %     - El costo computacional de los algoritmos de placement (ubicación) y routing (ruteo) es muy alto, tanto que incluso puede llegar a 
@@ -179,7 +179,7 @@
     \end{itemize}
     }
     \end{textblock}
-    \begin{textblock}{65}(80,8)
+    \begin{textblock}{67}(80,8)
     \begin{onlyenv}<3->
     \textcolor{gray}{Ejemplo:}
 \begin{lstlisting}
@@ -329,8 +329,8 @@ endmodule
     \pause
     \textcolor{naranjauca}{\textbf{Duplicación}}
 \begin{lstlisting}
-    assing bus = { 4d'0, data[7], data[7], data[7], data[7], data[7:0] }
-    assing bus = { 4d'0, 4{data[7]}, data[7:0] }
+    assing bus = { 4'd0, data[7], data[7], data[7], data[7], data[7:0] }
+    assing bus = { 4'd0, 4{data[7]}, data[7:0] }
 \end{lstlisting}
 \end{frame}
 
@@ -894,7 +894,7 @@ endmodule
     always @ (*)
     begin
         p <= a & b;
-        q <= a ^ b;
+        q <= a ~^ b;
         r <= p | q;
     end
 \end{lstlisting}
@@ -914,7 +914,7 @@ endmodule
     always @ (*)
     begin
         p = a & b;
-        q = a ^ b;
+        q = a ~^ b;
         r = p | q;
     end
 \end{lstlisting}
@@ -1012,16 +1012,17 @@ module GraySeq(seq, gray);
 
     always @ (*)
     begin
-        case (data) {
-        4'd0: gray = 4'b0000;
-        4'd1: gray = 4'b0001;
-        4'd2: gray = 4'b0011;
-        4'd3: gray = 4'b0010;
-        4'd4: gray = 4'b0110;
-        4'd5: gray = 4'b0111;
-        4'd6: gray = 4'b0101;
-        4'd7: gray = 4'b0100;
+        case (seq)
+        4'd0:    gray = 4'b0000;
+        4'd1:    gray = 4'b0001;
+        4'd2:    gray = 4'b0011;
+        4'd3:    gray = 4'b0010;
+        4'd4:    gray = 4'b0110;
+        4'd5:    gray = 4'b0111;
+        4'd6:    gray = 4'b0101;
+        4'd7:    gray = 4'b0100;
         default: gray = 4'b0000;
+        endcase
     end
 endmodule
 \end{lstlisting}
@@ -1040,13 +1041,14 @@ module deco(opcode, command);
     reg [2:0] command;
     always @ (*)
     begin
-        casez (data) {
+        casez (opcode)
         4'b0???1: command = 1;
         4'b0??10: command = 2;
         4'b0?100: command = 3;
         4'b01000: command = 4;
         4'b11000: command = 5;
-        default: command = 7;
+        default:  command = 7;
+        endcase
     end
 endmodule
 \end{lstlisting}
@@ -1063,14 +1065,15 @@ module PriorityEncoder(sel, bit);
     reg [2:0] bit;
     always @ (*)
     begin
-        casex (data) {
-        6'bxxxxx1: bit = 0;
-        6'bxxxx1x: bit = 0;
-        6'bxxx1xx: bit = 0;
-        6'bxx1xxx: bit = 0;
-        6'bx1xxxx: bit = 0;
-        6'b1xxxxx: bit = 0;
-        default: bit = 0;
+        casex (sel)
+        6'bxxxxx1: bit = 1;
+        6'bxxxx1x: bit = 2;
+        6'bxxx1xx: bit = 3;
+        6'bxx1xxx: bit = 4;
+        6'bx1xxxx: bit = 5;
+        6'b1xxxxx: bit = 6;
+        default:   bit = 0;
+        endcase
     end
 endmodule
 \end{lstlisting}
