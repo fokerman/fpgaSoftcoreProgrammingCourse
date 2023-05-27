@@ -1,0 +1,7 @@
+start:
+SET R0, 0x12
+SET R1, 0xFF
+ADD R0, R1
+
+data:
+DB 0xFF
