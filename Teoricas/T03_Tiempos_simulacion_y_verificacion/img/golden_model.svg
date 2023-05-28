@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="71.766808mm"
+   height="22.996mm"
+   viewBox="0 0 71.766809 22.996"
+   version="1.1"
+   id="svg28767"
+   inkscape:version="1.2.2 (1:1.2.2+202212051552+b0a8486541)"
+   sodipodi:docname="golden_model.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview28769"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.3638608"
+     inkscape:cx="159.93527"
+     inkscape:cy="44.591619"
+     inkscape:window-width="1920"
+     inkscape:window-height="1131"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs28764" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-219.22614,-110.25172)">
+    <g
+       id="g562"
+       transform="translate(-5.8157595,12.595074)">
+      <g
+         id="g442"
+         transform="translate(-27.739767,-0.13250012)">
+        <rect
+           style="color:#000000;overflow:visible;fill:#99c1f1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="rect21805"
+           width="22.731001"
+           height="22.731001"
+           x="252.91417"
+           y="97.921646"
+           ry="3.2960269" />
+        <text
+           xml:space="preserve"
+           style="font-size:3.52777px;line-height:100%;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="264.19147"
+           y="107.00468"
+           id="text21809"><tspan
+             sodipodi:role="line"
+             id="tspan21807"
+             style="fill:#000000;stroke:none;stroke-width:0.264583px"
+             x="264.19147"
+             y="107.00468">Device</tspan><tspan
+             sodipodi:role="line"
+             style="fill:#000000;stroke:none;stroke-width:0.264583px"
+             x="264.19147"
+             y="110.53245"
+             id="tspan552">Under</tspan><tspan
+             sodipodi:role="line"
+             style="fill:#000000;stroke:none;stroke-width:0.264583px"
+             x="264.19147"
+             y="114.06022"
+             id="tspan554">Test</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g448"
+       transform="translate(15.21528,-11.879101)">
+      <rect
+         style="color:#000000;overflow:visible;fill:#99c1f1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
+         id="rect50379"
+         width="22.731001"
+         height="22.731001"
+         x="252.91417"
+         y="122.26332"
+         ry="3.2960269" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:100%;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="264.33258"
+         y="133.13141"
+         id="text50383"><tspan
+           sodipodi:role="line"
+           id="tspan50381"
+           style="fill:#000000;stroke:none;stroke-width:0.264583px"
+           x="264.33258"
+           y="133.13141">Goldel</tspan><tspan
+           sodipodi:role="line"
+           style="fill:#000000;stroke:none;stroke-width:0.264583px"
+           x="264.33258"
+           y="136.65918"
+           id="tspan50385">Model</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:33.6617px;line-height:100%;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="255.10954"
+       y="129.55923"
+       id="text566"><tspan
+         sodipodi:role="line"
+         id="tspan564"
+         style="fill:#000000;stroke:none;stroke-width:0.264583px"
+         x="255.10954"
+         y="129.55923">=</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:19.319px;line-height:100%;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="254.81976"
+       y="128.90741"
+       id="text570"><tspan
+         sodipodi:role="line"
+         id="tspan568"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.264583px"
+         x="254.81976"
+         y="128.90741">?</tspan></text>
+  </g>
+</svg>
