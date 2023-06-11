@@ -12,3 +12,4 @@
 *.zip
 *.s
 .DS_Store
+*.pyc
