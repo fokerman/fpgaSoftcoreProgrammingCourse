@@ -1,0 +1,69 @@
+                  |00| SET R7 , 0xFB
+                  |02| SET R0 , interrupt_handler
+                  |04| STR [ 0xFF ] , R0
+                  |06| SET R0 , 0x10
+                  |08| LOADF R0
+                  |0a| SET R0 , 0x0
+                  |0c| SET R1 , 0x1
+        whileTrue |0e| STR [ 0xFC ] , R1
+                  |10| CALL | R7 | , sleep
+                  |12| STR [ 0xFC ] , R0
+                  |14| SET R3 , 0x7
+       whileSerie |16| CALL | R7 | , sleep
+                  |18| LOAD R2 , [ current ]
+                  |1a| AND R2 , R1
+                  |1c| SHL R2 , 1
+                  |1e| STR [ 0xFC ] , R2
+                  |20| LOAD R2 , [ current ]
+                  |22| SHR R2 , 1
+                  |24| STR [ current ] , R2
+                  |26| SUB R3 , R1
+                  |28| JZ continuar
+                  |2a| JMP whileSerie
+        continuar |2c| LOAD R2 , [ data ]
+                  |2e| STR [ current ] , R2
+                  |30| JMP whileTrue
+            sleep |32| PUSH | R7 | , R0
+                  |34| PUSH | R7 | , R1
+                  |36| PUSH | R7 | , R2
+                  |38| PUSH | R7 | , R3
+                  |3a| PUSH | R7 | , R4
+                  |3c| SET R2 , 10
+            ciclo |3e| CMP R2 , R0
+                  |40| JZ end_sleep
+                  |42| SUB R2 , R1
+                  |44| JMP ciclo
+        end_sleep |46| POP | R7 | , R4
+                  |48| POP | R7 | , R3
+                  |4a| POP | R7 | , R2
+                  |4c| POP | R7 | , R1
+                  |4e| POP | R7 | , R0
+                  |50| RET | R7 |
+          current |52| DB 0x00
+             data |53| DB 0x00
+interrupt_handler |54| PUSH | R7 | , R0
+                  |56| PUSH | R7 | , R1
+                  |58| PUSH | R7 | , R2
+                  |5a| PUSH | R7 | , R3
+                  |5c| PUSH | R7 | , R4
+                  |5e| SET R0 , 0x1
+                  |60| SET R1 , 0x2
+                  |62| LOAD R3 , [ 0xFE ]
+                  |64| CMP R3 , R0
+                  |66| JZ inc
+                  |68| CMP R3 , R1
+                  |6a| JZ dec
+    end_interrupt |6c| POP | R7 | , R4
+                  |6e| POP | R7 | , R3
+                  |70| POP | R7 | , R2
+                  |72| POP | R7 | , R1
+                  |74| POP | R7 | , R0
+                  |76| RETI | R7 |
+              inc |78| LOAD R3 , [ data ]
+                  |7a| ADD R3 , R0
+                  |7c| STR [ data ] , R3
+                  |7e| JMP end_interrupt
+              dec |80| LOAD R3 , [ data ]
+                  |82| SUB R3 , R0
+                  |84| STR [ data ] , R3
+                  |86| JMP end_interrupt
