@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="121.35535mm"
+   height="88.366951mm"
+   viewBox="0 0 121.35535 88.366951"
+   version="1.1"
+   id="svg1662257"
+   inkscape:version="1.2.2 (1:1.2.2+202212051552+b0a8486541)"
+   sodipodi:docname="MIPS_datapath_branch_F9.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1662259"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.93806818"
+     inkscape:cx="617.22592"
+     inkscape:cy="-23.452453"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1662254">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4935">
+      <path
+         d="M 514.347,613.346 H 170.269 V 362.857 h 344.078 z"
+         id="path4933" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5031">
+      <path
+         d="M 514.347,613.346 H 170.269 V 362.857 h 344.078 z"
+         id="path5029" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-44.527458,-54.350126)">
+    <g
+       id="g1668025">
+      <g
+         id="g4829"
+         transform="matrix(0.35277777,0,0,-0.35277777,121.62281,74.97351)">
+        <path
+           d="m 0,0 c 0,-10.674 -6.211,-19.327 -13.875,-19.327 -7.663,0 -13.873,8.653 -13.873,19.327 0,10.674 6.21,19.327 13.873,19.327 C -6.211,19.327 0,10.674 0,0 Z"
+           style="fill:none;stroke:#231f20;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path4831" />
+      </g>
+      <g
+         id="g4833"
+         transform="matrix(0.35277777,0,0,-0.35277777,126.44387,85.09964)">
+        <path
+           d="M 0,0 V -25.686 L 7.47,-35.159 0,-44.632 v -26.947 l 50.375,19.74 v 33.722 z"
+           style="fill:none;stroke:#231f20;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path4835" />
+      </g>
+      <g
+         id="g4837"
+         transform="matrix(0.35277777,0,0,-0.35277777,102.77495,116.09823)">
+        <path
+           d="M 0,0 H -105.635 V 104.143 H 0 Z"
+           style="fill:none;stroke:#231f20;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path4839" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text4845"
+         x="66.50914"
+         y="83.170158"><tspan
+           x="66.50914 68.546799 70.115952 71.685104"
+           y="83.170158"
+           sodipodi:role="line"
+           id="tspan4841"
+           style="stroke-width:0.352778">Read</tspan><tspan
+           x="66.50914 67.448959 69.018112 70.587265 71.213791 72.624893 73.40947 74.978653 75.918442 76.703018"
+           y="86.556816"
+           sodipodi:role="line"
+           id="tspan4843"
+           style="stroke-width:0.352778">register 1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:bold;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text4851"
+         x="78.560043"
+         y="100.03011"><tspan
+           x="78.560043 80.597672 82.166824 83.89122 84.675797 86.244949 87.184738 88.753891 89.809402"
+           y="100.03011"
+           sodipodi:role="line"
+           id="tspan4847"
+           style="stroke-width:0.352778">Registers</tspan><tspan
+           x="129.82008 131.85768 133.58211"
+           y="98.737541"
+           sodipodi:role="line"
+           id="tspan4849"
+           style="stroke-width:0.352778">ALU</tspan></text>
+      <g
+         id="g4853"
+         transform="matrix(0.35277777,0,0,-0.35277777,102.77495,88.54381)">
+        <path
+           d="M 0,0 H 62.858"
+           style="fill:none;stroke:#231f20;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path4855" />
+      </g>
+      <g
+         id="g4857"
+         transform="matrix(0.35277777,0,0,-0.35277777,125.47091,88.31769)">
+        <path
+           d="m 0,0 c -1.035,0.312 -1.705,0.6 -2.535,0.932 v -3.153 c 0.297,0.141 1.5,0.621 2.535,0.933 1.105,0.334 2.107,0.562 2.758,0.644 C 2.107,-0.562 1.105,-0.334 0,0"
+           style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path4859" />
+      </g>
+      <g
+         id="g4861"
+         transform="matrix(0.35277777,0,0,-0.35277777,121.62281,74.97351)">
+        <path
+           d="M 0,0 9.431,0.003"
+           style="fill:none;stroke:#231f20;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path4863" />
+      </g>
+      <g
+         id="g4865"
+         transform="matrix(0.35277777,0,0,-0.35277777,125.47091,74.74633)">
+        <path
+           d="m 0,0 c -1.035,0.312 -1.705,0.6 -2.535,0.932 v -3.153 c 0.297,0.141 1.5,0.621 2.535,0.933 1.105,0.334 2.107,0.562 2.758,0.644 C 2.107,-0.562 1.105,-0.334 0,0"
+           style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path4867" />
+      </g>
+      <g
+         id="g4869"
+         transform="matrix(0.35277777,0,0,-0.35277777,110.86096,74.74633)">
+        <path
+           d="m 0,0 c -1.035,0.312 -1.705,0.6 -2.535,0.932 v -3.153 c 0.296,0.141 1.5,0.621 2.535,0.933 1.105,0.334 2.107,0.562 2.758,0.644 C 2.107,-0.562 1.105,-0.334 0,0"
+           style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path4871" />
+      </g>
+      <g
+         id="g4873"
+         transform="matrix(0.35277777,0,0,-0.35277777,144.21505,97.43911)">
+        <path
+           d="M 0,0 H 11.75"
+           style="fill:none;stroke:#231f20;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path4875" />
+      </g>
+      <g
+         id="g4877"
+         transform="matrix(0.35277777,0,0,-0.35277777,148.88089,97.21298)">
+        <path
+           d="m 0,0 c -1.035,0.312 -1.705,0.599 -2.535,0.932 v -3.153 c 0.297,0.141 1.5,0.62 2.535,0.932 1.106,0.334 2.108,0.563 2.758,0.644 C 2.108,-0.563 1.106,-0.334 0,0"
+           style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path4879" />
+      </g>
+      <g
+         id="g4881"
+         transform="matrix(0.35277777,0,0,-0.35277777,102.77495,106.91366)">
+        <path
+           d="M 0,0 H 62.858"
+           style="fill:none;stroke:#231f20;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path4883" />
+      </g>
+      <g
+         id="g4885"
+         transform="matrix(0.35277777,0,0,-0.35277777,125.47091,106.68753)">
+        <path
+           d="m 0,0 c -1.035,0.312 -1.705,0.599 -2.535,0.931 v -3.152 c 0.297,0.141 1.5,0.621 2.535,0.932 1.105,0.334 2.107,0.562 2.758,0.644 C 2.107,-0.563 1.105,-0.334 0,0"
+           style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path4887" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#00adef;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text4893"
+         x="137.43776"
+         y="98.335075"><tspan
+           x="137.43776 139.16212 140.73128 141.6711"
+           y="98.335075"
+           sodipodi:role="line"
+           id="tspan4889"
+           style="stroke-width:0.352778">Zero</tspan><tspan
+           x="71.722305 73.759964 75.329117 76.89827 79.562454 80.544571 81.171127 81.955704"
+           y="119.73037"
+           sodipodi:role="line"
+           id="tspan4891"
+           style="stroke-width:0.352778">RegWrite</tspan></text>
+      <g
+         id="g4895"
+         transform="matrix(0.35277777,0,0,-0.35277777,84.5247,116.09823)">
+        <path
+           d="M 0,0 V -14.426"
+           style="fill:none;stroke:#00adef;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path4897" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text4907"
+         x="95.029617"
+         y="87.804527"><tspan
+           x="95.029617 97.067245 98.636398 100.20555"
+           y="87.804527"
+           sodipodi:role="line"
+           id="tspan4899"
+           style="stroke-width:0.352778">Read</tspan><tspan
+           x="93.92894 95.498093 97.067245 97.851822 99.420975 100.20555"
+           y="91.191216"
+           sodipodi:role="line"
+           id="tspan4901"
+           style="stroke-width:0.352778">data 1</tspan><tspan
+           x="95.029617 97.067245 98.636398 100.20555"
+           y="106.14898"
+           sodipodi:role="line"
+           id="tspan4903"
+           style="stroke-width:0.352778">Read</tspan><tspan
+           x="93.92894 95.498093 97.067245 97.851822 99.420975 100.20555"
+           y="109.53564"
+           sodipodi:role="line"
+           id="tspan4905"
+           style="stroke-width:0.352778">data 2</tspan></text>
+      <g
+         id="g4909"
+         transform="matrix(0.35277777,0,0,-0.35277777,131.99095,83.7351)">
+        <path
+           d="M 0,0 7.246,-7.628"
+           style="fill:none;stroke:#00adef;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path4911" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#00adef;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text4915"
+         x="134.26912"
+         y="83.975975"><tspan
+           x="134.26912 136.1515 137.72066 139.75832 140.54292 142.11208 143.68123 145.25038 146.16194 147.73109 148.5157 149.14223 150.71138"
+           y="83.975975"
+           sodipodi:role="line"
+           id="tspan4913"
+           style="stroke-width:0.352778">ALU operation</tspan></text>
+      <g
+         id="g4917"
+         transform="matrix(0.35277777,0,0,-0.35277777,133.26906,87.55428)">
+        <path
+           d="M 0,0 V 15.739"
+           style="fill:none;stroke:#00adef;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path4919" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text4927"
+         x="129.83253"
+         y="85.739861"><tspan
+           x="129.83253"
+           y="85.739861"
+           id="tspan4921"
+           style="stroke-width:0.352778">4</tspan><tspan
+           x="150.85243 152.23817 153.80733 154.59187 156.16103 157.07265 158.6418 160.21095 161.62202"
+           y="96.642113"
+           sodipodi:role="line"
+           id="tspan4923"
+           style="stroke-width:0.352778">To branch</tspan><tspan
+           x="150.85243 152.26357 153.83272 155.40187 156.18648 157.12624 158.69539 159.32191 160.10652 160.73305 162.3022 163.87135 164.49788"
+           y="100.02877"
+           sodipodi:role="line"
+           id="tspan4925"
+           style="stroke-width:0.352778">control logic</tspan></text>
+      <g
+         id="g4929"
+         transform="matrix(0.35277777,0,0,-0.35277777,-15.53966,270.72496)">
+        <g
+           id="g4931"
+           clip-path="url(#clipPath4935)">
+          <g
+             id="g4937"
+             transform="translate(402.47301,612.991)">
+            <path
+               d="M 0,0 V -25.686 L 7.47,-35.159 0,-44.631 v -26.948 l 50.375,19.741 v 33.721 z"
+               style="fill:none;stroke:#231f20;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               id="path4939" />
+          </g>
+        </g>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:bold;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text4943"
+         x="129.99025"
+         y="68.113396"><tspan
+           x="129.99025 132.02791 133.72408"
+           y="68.113396"
+           sodipodi:role="line"
+           id="tspan4941"
+           style="stroke-width:0.352778">Add</tspan></text>
+      <path
+         d="m 144.21505,66.81482 h 4.14514"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path4947" />
+      <g
+         id="g4949"
+         transform="matrix(0.35277777,0,0,-0.35277777,148.88089,66.58905)">
+        <path
+           d="m 0,0 c -1.035,0.312 -1.705,0.6 -2.535,0.932 v -3.153 c 0.297,0.141 1.5,0.621 2.535,0.933 1.106,0.334 2.108,0.562 2.758,0.644 C 2.108,-0.562 1.106,-0.334 0,0"
+           style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path4951" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text4961"
+         x="137.43776"
+         y="67.710838"><tspan
+           x="137.43776 139.32021 140.88936"
+           y="67.710838"
+           sodipodi:role="line"
+           id="tspan4953"
+           style="stroke-width:0.352778">Sum</tspan><tspan
+           x="150.85463 152.73701 153.64857 155.21779 156.78694 158.19801"
+           y="66.017509"
+           sodipodi:role="line"
+           id="tspan4955"
+           style="stroke-width:0.352778">Branch</tspan><tspan
+           x="150.85463 151.63918 153.20833 154.14815 155.7173 157.28645"
+           y="69.404167"
+           sodipodi:role="line"
+           id="tspan4957"
+           style="stroke-width:0.352778">target</tspan><tspan
+           x="80.183334 82.06575"
+           y="59.834007"
+           sodipodi:role="line"
+           id="tspan4959"
+           style="stroke-width:0.352778">PC</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.82222px;font-family:Symbol;-inkscape-font-specification:Symbol;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text4965"
+         x="84.526749"
+         y="59.834007"><tspan
+           x="84.526749"
+           y="59.834007"
+           id="tspan4963"
+           style="stroke-width:0.352778">+</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text4969"
+         x="86.499466"
+         y="59.834007"><tspan
+           x="86.499466 88.068649 88.853226 89.637802 90.577591 92.146744 94.497665 95.282242 95.908768 97.477921 98.889023 99.673599 100.65575 102.2249 103.636 104.42058 105.04713 106.61629 108.18544 108.96999 110.53914 112.10835 112.8929 114.46205 116.0312 117.60036 118.38496"
+           y="59.834007"
+           sodipodi:role="line"
+           id="tspan4967"
+           style="stroke-width:0.352778">4 from instruction datapath</tspan></text>
+      <g
+         id="g4971"
+         transform="matrix(0.35277777,0,0,-0.35277777,84.63899,130.62491)">
+        <path
+           d="m 0,0 h -70.644 v 132.257 h 12.183"
+           style="fill:none;stroke:#231f20;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path4973" />
+      </g>
+      <g
+         id="g4975"
+         transform="matrix(0.35277777,0,0,-0.35277777,64.53595,83.74145)">
+        <path
+           d="M 0,0 C -1.033,0.312 -1.705,0.6 -2.534,0.932 V -2.221 C -2.237,-2.08 -1.033,-1.6 0,-1.288 1.106,-0.954 2.109,-0.726 2.759,-0.644 2.109,-0.562 1.106,-0.334 0,0"
+           style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path4977" />
+      </g>
+      <g
+         id="g4979"
+         transform="matrix(0.35277777,0,0,-0.35277777,85.1597,130.39879)">
+        <path
+           d="m 0,0 c -1.033,0.312 -1.705,0.599 -2.533,0.933 v -3.154 c 0.296,0.143 1.5,0.621 2.533,0.934 1.106,0.334 2.11,0.562 2.76,0.644 C 2.11,-0.563 1.106,-0.334 0,0"
+           style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path4981" />
+      </g>
+      <g
+         id="g4983"
+         transform="matrix(0.35277777,0,0,-0.35277777,98.35217,130.62562)">
+        <path
+           d="m 0,0 c 0,-18.791 -7.754,-34.025 -17.318,-34.025 -9.564,0 -17.318,15.234 -17.318,34.025 0,18.789 7.754,34.024 17.318,34.024 C -7.754,34.024 0,18.789 0,0 Z"
+           style="fill:none;stroke:#231f20;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path4985" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:bold;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text4991"
+         x="88.71489"
+         y="129.81239"><tspan
+           x="88.71489 90.597305 91.381882 93.106247 94.830643"
+           y="129.81239"
+           sodipodi:role="line"
+           id="tspan4987"
+           style="stroke-width:0.352778">Sign-</tspan><tspan
+           x="87.715805 89.24263 90.811783 91.751602 93.320755 95.04512"
+           y="133.19905"
+           sodipodi:role="line"
+           id="tspan4989"
+           style="stroke-width:0.352778">extend</tspan></text>
+      <g
+         id="g4993"
+         transform="matrix(0.35277777,0,0,-0.35277777,80.06735,129.27906)">
+        <path
+           d="M 0,0 3.623,-3.815 7.246,-7.627"
+           style="fill:none;stroke:#231f20;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path4995" />
+      </g>
+      <g
+         id="g4997"
+         transform="matrix(0.35277777,0,0,-0.35277777,98.35217,130.62562)">
+        <path
+           d="m 0,0 h 21.46 l 0.086,157.754 12.435,0.003"
+           style="fill:none;stroke:#231f20;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path4999" />
+      </g>
+      <g
+         id="g5001"
+         transform="matrix(0.35277777,0,0,-0.35277777,100.99801,129.28047)">
+        <path
+           d="M 0,0 7.246,-7.627"
+           style="fill:none;stroke:#231f20;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path5003" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text5009"
+         x="79.998093"
+         y="128.37096"><tspan
+           x="79.998093 81.567245 101.12807 102.69722"
+           y="128.37096"
+           sodipodi:role="line"
+           id="tspan5005"
+           style="stroke-width:0.352778">1632</tspan><tspan
+           x="45.290421 46.074997 47.64415 49.055252 49.839828 50.821976 52.391129 53.802231 54.586807 55.213333 56.782486"
+           y="87.476952"
+           sodipodi:role="line"
+           id="tspan5007"
+           style="stroke-width:0.352778">Instruction</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:bold;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text5015"
+         x="113.59102"
+         y="74.158867"><tspan
+           x="113.59102 115.4734 117.19783 117.98238 118.9222"
+           y="74.158867"
+           sodipodi:role="line"
+           id="tspan5011"
+           style="stroke-width:0.352778">Shift</tspan><tspan
+           x="113.43294 114.21754 115.7867 116.72652 117.66628 118.45088"
+           y="77.545555"
+           sodipodi:role="line"
+           id="tspan5013"
+           style="stroke-width:0.352778">left 2</tspan></text>
+      <g
+         id="g5017"
+         transform="matrix(0.35277777,0,0,-0.35277777,59.71736,93.13522)">
+        <path
+           d="M 0,0 H 12.183"
+           style="fill:none;stroke:#231f20;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path5019" />
+      </g>
+      <g
+         id="g5021"
+         transform="matrix(0.35277777,0,0,-0.35277777,64.53595,92.90909)">
+        <path
+           d="M 0,0 C -1.033,0.312 -1.705,0.599 -2.534,0.932 V -2.221 C -2.237,-2.08 -1.033,-1.6 0,-1.288 1.106,-0.954 2.109,-0.726 2.759,-0.644 2.109,-0.563 1.106,-0.334 0,0"
+           style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path5023" />
+      </g>
+      <g
+         id="g5025"
+         transform="matrix(0.35277777,0,0,-0.35277777,-15.53966,270.72496)">
+        <g
+           id="g5027"
+           clip-path="url(#clipPath5031)">
+          <g
+             id="g5033"
+             transform="translate(213.327,516.604)">
+            <path
+               d="M 0,0 H -43.058"
+               style="fill:none;stroke:#231f20;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               id="path5035" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="g5037"
+         transform="matrix(0.35277777,0,0,-0.35277777,60.44444,88.50501)">
+        <path
+           d="m 0,0 c 0,-1.105 -0.896,-2 -2,-2 -1.105,0 -2,0.895 -2,2 0,1.104 0.895,2 2,2 1.104,0 2,-0.896 2,-2"
+           style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path5039" />
+      </g>
+      <g
+         id="g5041"
+         transform="matrix(0.35277777,0,0,-0.35277777,60.44444,93.14333)">
+        <path
+           d="m 0,0 c 0,-1.105 -0.896,-2 -2,-2 -1.105,0 -2,0.895 -2,2 0,1.104 0.895,2 2,2 1.104,0 2,-0.896 2,-2"
+           style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path5043" />
+      </g>
+      <path
+         d="m 120.95464,59.00503 h 4.14443"
+         style="fill:none;stroke:#231f20;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path5047" />
+      <path
+         d="m 125.56757,58.80183 c -0.32773,-0.0991 -0.54116,-0.1905 -0.80433,-0.29598 v 1.00118 c 0.0945,-0.0448 0.4766,-0.1972 0.80433,-0.29598 0.35137,-0.10618 0.66992,-0.17886 0.8763,-0.20461 -0.20638,-0.0261 -0.52493,-0.0984 -0.8763,-0.20461"
+         style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="path5051" />
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text5065"
+         x="66.50914"
+         y="92.344933"><tspan
+           x="66.50914 68.546799 70.115952 71.685104"
+           y="92.344933"
+           sodipodi:role="line"
+           id="tspan5053"
+           style="stroke-width:0.352778">Read</tspan><tspan
+           x="66.50914 67.448959 69.018112 70.587265 71.213791 72.624893 73.40947 74.978653 75.918442 76.703018"
+           y="95.73159"
+           sodipodi:role="line"
+           id="tspan5055"
+           style="stroke-width:0.352778">register 2</tspan><tspan
+           x="66.50914 69.173325 70.155472 70.781998 71.566574"
+           y="101.71471"
+           sodipodi:role="line"
+           id="tspan5057"
+           style="stroke-width:0.352778">Write</tspan><tspan
+           x="66.50914 67.448959 69.018112 70.587265 71.213791 72.624893 73.40947 74.978653"
+           y="105.10137"
+           sodipodi:role="line"
+           id="tspan5059"
+           style="stroke-width:0.352778">register</tspan><tspan
+           x="66.50914 69.173325 70.155472 70.781998 71.566574"
+           y="111.0845"
+           sodipodi:role="line"
+           id="tspan5061"
+           style="stroke-width:0.352778">Write</tspan><tspan
+           x="66.50914 68.078293 69.647446 70.432053"
+           y="114.47115"
+           sodipodi:role="line"
+           id="tspan5063"
+           style="stroke-width:0.352778">data</tspan></text>
+    </g>
+    <g
+       id="g5067"
+       transform="matrix(0.35277777,0,0,-0.35277777,44.71761,145.73897)">
+      <path
+         d="M 0,0 H 343"
+         style="fill:none;stroke:#231f20;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path5069" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-variant:normal;font-size:2.82222px;font-family:ITCFranklinGothicStd;-inkscape-font-specification:ITCFranklinGothicStd-Hvy;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+       id="text5073"
+       x="44.717453"
+       y="149.35484"><tspan
+         x="44.717453 46.24147 47.144577 49.063675 50.926346 52.845474 54.538803 55.301926 56.995255 57.841934"
+         y="149.35484"
+         sodipodi:role="line"
+         id="tspan5071"
+         style="stroke-width:0.352778">FIGURE 4.9</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-variant:normal;font-size:2.82222px;font-family:ITCFranklinGothicStd;-inkscape-font-specification:ITCFranklinGothicStd-Hvy;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+       id="text5083"
+       x="62.356339"
+       y="149.35484"><tspan
+         x="62.356339 63.767471 65.404343 67.097672 67.860825 69.497696 71.134598 72.263474 73.900375 75.537247 77.174149 78.303024 79.939926 80.703049 81.831955 83.525284 84.597702 85.360855 86.997726 87.76088 89.397751 90.4702 92.107101 93.743973 95.26799 96.904861 97.667984 99.361313 100.88533 102.57866 104.10265 104.8658 105.99467 107.63158 109.32491 110.08803 111.9507 113.47469 115.33736 116.10048 117.22939 118.92268 119.68587 121.35097 122.87495 124.51186 125.35854 127.05183 128.68874 129.81764 131.51094 132.27406 133.40297 135.03987 136.73317 137.49629 139.13319 140.20564 141.84254 143.47945 145.00343 146.64034 147.40346 148.92744 150.6208 152.25764 153.89455 154.74123 155.87013 156.71675 158.41011 160.04701 160.81013 162.44704 164.08394 165.72078"
+         y="149.35484"
+         sodipodi:role="line"
+         id="tspan5075"
+         style="stroke-width:0.352778">The datapath for a branch uses the ALU to evaluate the branch condition and </tspan><tspan
+         x="44.717453 46.354355 47.136673 48.66066 50.353989 51.990891 53.627792 54.700211 56.337112 57.465988 59.159348 59.941666 61.578537 63.215439 64.85231 66.54567 67.618088 68.400406 69.529312 71.222641 72.004959 73.528976 75.222305 77.649399 79.286301 80.97963 82.108505 83.801865 84.584183 85.713058 87.34996 89.043289 89.825607 91.462479 92.534927 94.171829 95.808701 97.332718 98.969589 99.751907 100.88081 102.51768 103.59013 105.22704 106.92036 108.04924 108.83156 110.46846 111.99245 112.7748 113.90364 115.54054 117.2339 118.01619 119.54024 121.23354 123.66066 124.44301 126.13631 127.26521 128.0475 129.17641 130.81331 132.50661 133.28896 134.13564 135.77248 137.29652 138.36897 140.06227 142.4894 144.18275 145.8196 146.9485 148.64186 150.2787 151.06105 152.92372 154.78639 155.56868 157.20558 158.84248 160.47939 161.26167 162.39058 164.02748 165.72078"
+         y="152.70482"
+         sodipodi:role="line"
+         id="tspan5077"
+         style="stroke-width:0.352778">a separate adder to compute the branch target as the sum of the incremented PC and the </tspan><tspan
+         x="44.717453 46.24147 47.08812 48.725021 50.361893 51.095688 52.789017 54.425919 55.554794 57.248123 58.885025 60.521896 62.215225 63.852127 64.557693 65.586655 66.433334 68.126663 70.271561 71.96489 73.037338 74.066299 75.759659 77.452988 78.481949 80.118851 80.96553 82.094406 83.618393 84.647385 86.340714 87.46962 88.498581 89.627487 91.264359 92.957718 93.986679 94.833359 96.47023 97.994247 99.123123 100.25203 101.94536 103.46935 104.59825 105.4449 107.13823 108.7751 109.80409 110.87654 112.00545 113.64235 115.33565 116.36464 118.00154 119.07399 120.71089 122.34773 123.87178 125.50862 126.53761 128.17451 129.02119 130.54518 132.18208 133.02876 134.66566 136.18965 137.88295 140.31007 142.00343 143.64027 144.76918 145.84163 146.5472 147.57619 149.10017 150.73708 151.58369 152.7126 153.84151 155.53481 157.17171 158.2007 159.04738 160.74068 161.86958 162.99849 164.02748 165.72078"
+         y="156.05479"
+         sodipodi:role="line"
+         id="tspan5079"
+         style="stroke-width:0.352778">sign-extended, lower 16 bits of the instruction (the branch displacement), shifted left 2 </tspan><tspan
+         x="44.717453 46.354355 47.201004 48.32991 49.853897 50.700577"
+         y="159.40477"
+         sodipodi:role="line"
+         id="tspan5081"
+         style="stroke-width:0.352778">bits. </tspan></text>
+  </g>
+</svg>

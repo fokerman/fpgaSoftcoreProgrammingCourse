@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="148.08978mm"
+   height="59.229946mm"
+   viewBox="0 0 148.08978 59.229946"
+   version="1.1"
+   id="svg1828792"
+   inkscape:version="1.2.2 (1:1.2.2+202212051552+b0a8486541)"
+   sodipodi:docname="pipeline_multicycle_diagram_blocks_F44.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1828794"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.8761364"
+     inkscape:cx="287.82556"
+     inkscape:cy="37.310721"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1828789">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1479287">
+      <g
+         id="g1479291"
+         style="stroke-width:0.999999">
+        <path
+           d="M 349.62981,1041.8593 H 201.44622 v 59.5965 h 148.18359 z"
+           id="path1479289"
+           style="stroke-width:0.999999" />
+      </g>
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-19.925116,-112.59169)">
+    <g
+       id="g1829724">
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text41201"
+         x="19.831409"
+         y="122.44653"><tspan
+           x="19.831409 21.713825 22.653629 24.222782 25.79195 26.731739 28.300892"
+           y="122.44653"
+           sodipodi:role="line"
+           id="tspan41185"
+           style="stroke-width:0.352778">Program</tspan><tspan
+           x="19.831409 21.400562 22.81168 24.380833 25.79195 27.361103 28.145679 28.772205 30.341358"
+           y="125.83324"
+           sodipodi:role="line"
+           id="tspan41187"
+           style="stroke-width:0.352778">execution</tspan><tspan
+           x="19.831409 21.400562 22.340366 23.909519 25.478672"
+           y="129.21985"
+           sodipodi:role="line"
+           id="tspan41189"
+           style="stroke-width:0.352778">order</tspan><tspan
+           x="19.831409 20.771214 21.397739 22.966892 23.751484 24.37801 25.947163 27.35828 28.142857 29.082661 30.651814 32.062916 32.847492 33.474033 35.043186 36.612339 38.023457"
+           y="132.60657"
+           sodipodi:role="line"
+           id="tspan41191"
+           style="stroke-width:0.352778">(in instructions)</tspan><tspan
+           x="24.171986 24.798527 26.83617 27.620747 29.189899 30.759052 32.328205 33.112782 33.897373 35.466526 37.035679 37.975483 39.544636 41.113789"
+           y="141.41187"
+           sodipodi:role="line"
+           id="tspan41193"
+           style="stroke-width:0.352778">lw $10, 20($1)</tspan><tspan
+           x="24.171986 25.583103 27.152256 28.721409 29.505985 31.075138 32.644291 34.213459 34.998035 35.782612 37.351765 38.920918 39.705494 40.49007 42.059238"
+           y="148.02429"
+           sodipodi:role="line"
+           id="tspan41195"
+           style="stroke-width:0.352778">sub $11, $2, $3</tspan><tspan
+           x="24.171986 25.741138 27.310291 28.879459 29.664036 31.233189 32.802341 34.371494 35.156071 35.940647 37.509815 39.078968 39.863544 40.648121 42.217274"
+           y="154.6283"
+           sodipodi:role="line"
+           id="tspan41197"
+           style="stroke-width:0.352778">add $12, $3, $4</tspan><tspan
+           x="24.171986 24.798527 26.83617 27.620747 29.189899 30.759052 32.328205 33.112782 33.897373 35.466526 37.035679 37.975483 39.544636 41.113789"
+           y="161.2323"
+           sodipodi:role="line"
+           id="tspan41199"
+           style="stroke-width:0.352778">lw $13, 24($1)</tspan></text>
+      <path
+         d="m 21.34084,135.27494 v 35.2788"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41205" />
+      <path
+         d="m 21.5324,170.99544 c 0.0935,-0.309 0.17956,-0.5101 0.27905,-0.7578 h -0.94368 c 0.0423,0.089 0.18591,0.4488 0.27904,0.7578 0.0998,0.3313 0.16863,0.6315 0.19297,0.8262 0.0243,-0.1947 0.0928,-0.4949 0.19262,-0.8262"
+         style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="path41209" />
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text41215"
+         x="24.170506"
+         y="167.83154"><tspan
+           x="24.170506 25.739658 27.308826 28.877979 29.662556 31.231709 32.800861 34.370014 35.154606 35.939182 37.508335 39.077488 39.862064 40.646641 42.215794"
+           y="167.83154"
+           sodipodi:role="line"
+           id="tspan41213"
+           style="stroke-width:0.352778">add $14, $5, $6</tspan></text>
+      <path
+         d="m 78.25237,113.83444 h 86.27921"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41219" />
+      <path
+         d="m 164.97326,113.64254 c -0.30903,-0.093 -0.50976,-0.1792 -0.75812,-0.279 v 0.9436 c 0.0889,-0.042 0.44909,-0.1855 0.75812,-0.279 0.33126,-0.1 0.63112,-0.1683 0.8255,-0.1926 -0.19438,-0.024 -0.49424,-0.093 -0.8255,-0.193"
+         style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="path41223" />
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text41229"
+         x="48.863239"
+         y="114.64635"><tspan
+           x="48.863239 50.58762 51.214146 53.565067 55.13422 55.918797 56.858601 57.485126 59.054279 59.838856 61.249973 61.876499 63.445667 64.856773 66.267891 67.052467 68.46357 69.874687 71.285805 71.912331 73.481483 74.892601"
+           y="114.64635"
+           sodipodi:role="line"
+           id="tspan41227"
+           style="stroke-width:0.352778">Time (in clock cycles)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.46944px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text41263"
+         x="47.080006"
+         y="139.79785"><tspan
+           x="47.080006 47.766514 49.13953 50.374256 51.060749 51.883076 53.256092 54.490818 55.177311 55.725529 57.098545"
+           y="139.79785"
+           sodipodi:role="line"
+           id="tspan41231"
+           style="stroke-width:0.352778">Instruction</tspan><tspan
+           x="50.097675 50.784184 52.157185 52.843693 54.078419"
+           y="142.76123"
+           sodipodi:role="line"
+           id="tspan41233"
+           style="stroke-width:0.352778">fetch</tspan><tspan
+           x="60.590336 61.276844 62.64986 63.884571 64.571083 65.39341 66.766426 68.001152 68.687645 69.235863 70.608879"
+           y="139.79785"
+           sodipodi:role="line"
+           id="tspan41235"
+           style="stroke-width:0.352778">Instruction</tspan><tspan
+           x="62.237461 63.610477 64.983482 66.218208 67.591225 68.964226"
+           y="142.76123"
+           sodipodi:role="line"
+           id="tspan41237"
+           style="stroke-width:0.352778">decode</tspan><tspan
+           x="74.695824 76.342918 77.57766 78.950676 80.185387 81.558403 82.244896 82.793114 84.16613"
+           y="141.20789"
+           sodipodi:role="line"
+           id="tspan41239"
+           style="stroke-width:0.352778">Execution</tspan><tspan
+           x="90.828697 92.611626 93.984642 94.671135"
+           y="139.79785"
+           sodipodi:role="line"
+           id="tspan41241"
+           style="stroke-width:0.352778">Data</tspan><tspan
+           x="89.593956 90.966972 92.201714 93.436424 94.809441 96.044151"
+           y="142.76123"
+           sodipodi:role="line"
+           id="tspan41243"
+           style="stroke-width:0.352778">access</tspan><tspan
+           x="104.42544 106.2084 107.58141 108.26791"
+           y="146.40857"
+           sodipodi:role="line"
+           id="tspan41245"
+           style="stroke-width:0.352778">Data</tspan><tspan
+           x="103.19073 104.56374 105.79845 107.0332 108.40618 109.64092"
+           y="149.37183"
+           sodipodi:role="line"
+           id="tspan41247"
+           style="stroke-width:0.352778">access</tspan><tspan
+           x="117.98763 119.77059 121.14358 121.8301"
+           y="153.01184"
+           sodipodi:role="line"
+           id="tspan41249"
+           style="stroke-width:0.352778">Data</tspan><tspan
+           x="116.75292 118.12594 119.36065 120.59536 121.96838 123.20312"
+           y="155.97522"
+           sodipodi:role="line"
+           id="tspan41251"
+           style="stroke-width:0.352778">access</tspan><tspan
+           x="131.50291 133.28584 134.65886 135.34535"
+           y="159.61511"
+           sodipodi:role="line"
+           id="tspan41253"
+           style="stroke-width:0.352778">Data</tspan><tspan
+           x="130.26817 131.64119 132.8759 134.11064 135.48366 136.71837"
+           y="162.57849"
+           sodipodi:role="line"
+           id="tspan41255"
+           style="stroke-width:0.352778">access</tspan><tspan
+           x="145.08733 146.87025 148.24327 148.92976"
+           y="166.18384"
+           sodipodi:role="line"
+           id="tspan41257"
+           style="stroke-width:0.352778">Data</tspan><tspan
+           x="143.85258 145.2256 146.46034 147.69505 149.06807 150.30278"
+           y="169.14722"
+           sodipodi:role="line"
+           id="tspan41259"
+           style="stroke-width:0.352778">access</tspan><tspan
+           x="101.20284 103.53399 104.35632 104.90453 105.59103 106.96404 107.78637 109.15939 110.5324 111.76711"
+           y="141.20789"
+           sodipodi:role="line"
+           id="tspan41261"
+           style="stroke-width:0.352778">Write-back</tspan></text>
+      <path
+         d="m 113.81872,143.76414 h -13.57066 v -6.6029 h 13.57066 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41267" />
+      <path
+         d="M 100.23501,143.76414 H 86.63966 v -6.6029 h 13.59535 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41271" />
+      <path
+         d="M 86.63966,143.76414 H 73.08029 v -6.6029 h 13.55937 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41275" />
+      <path
+         d="m 73.07959,143.76414 h -13.583 v -6.6029 h 13.583 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41279" />
+      <path
+         d="M 59.49659,143.76414 H 46.05505 v -6.6029 h 13.44154 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41283" />
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text41289"
+         x="157.9492"
+         y="118.67309"><tspan
+           x="157.9492 159.98686 162.02449 162.80907 144.31224 146.34987 148.38753 149.1721 130.67525 132.71291 134.75053 135.53511 117.03829 119.07592 121.11358 121.89816 103.4013 105.43896 107.47659 108.26116 89.764336 91.801964 93.839622 94.623894 76.127342 78.165001 80.202629 80.987206 62.49036 64.528008 66.565651 67.350227 48.853397 50.891041 52.928669 53.713261"
+           y="118.67309"
+           sodipodi:role="line"
+           id="tspan41287"
+           style="stroke-width:0.352778">CC 9CC 8CC 7CC 6CC 5CC 4CC 3CC 2CC 1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.46944px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text41325"
+         x="60.587132"
+         y="146.40869"><tspan
+           x="60.587132 61.27364 62.646641 63.881367 64.567879 65.390205 66.763206 67.997932 68.684441 69.232658 70.605675"
+           y="146.40869"
+           sodipodi:role="line"
+           id="tspan41291"
+           style="stroke-width:0.352778">Instruction</tspan><tspan
+           x="63.607258 64.29377 65.666786 66.353279 67.588005"
+           y="149.37207"
+           sodipodi:role="line"
+           id="tspan41293"
+           style="stroke-width:0.352778">fetch</tspan><tspan
+           x="74.171547 74.858055 76.231071 77.465782 78.152306 78.974632 80.347618 81.582359 82.268852 82.81707 84.190086"
+           y="153.01208"
+           sodipodi:role="line"
+           id="tspan41295"
+           style="stroke-width:0.352778">Instruction</tspan><tspan
+           x="77.191673 77.878197 79.251183 79.937706 81.172417"
+           y="155.97534"
+           sodipodi:role="line"
+           id="tspan41297"
+           style="stroke-width:0.352778">fetch</tspan><tspan
+           x="87.755974 88.442467 89.815483 91.050194 91.736717 92.559044 93.93203 95.166771 95.853264 96.401482 97.774498"
+           y="159.61536"
+           sodipodi:role="line"
+           id="tspan41299"
+           style="stroke-width:0.352778">Instruction</tspan><tspan
+           x="90.773613 91.460136 92.833153 93.519646 94.754356"
+           y="162.57861"
+           sodipodi:role="line"
+           id="tspan41301"
+           style="stroke-width:0.352778">fetch</tspan><tspan
+           x="101.33791 102.02441 103.39742 104.63213 105.31866 106.14098 107.51397 108.74871 109.4352 109.98342 111.35644"
+           y="166.18408"
+           sodipodi:role="line"
+           id="tspan41303"
+           style="stroke-width:0.352778">Instruction</tspan><tspan
+           x="104.35555 105.04208 106.41509 107.10159 108.33633"
+           y="169.14734"
+           sodipodi:role="line"
+           id="tspan41305"
+           style="stroke-width:0.352778">fetch</tspan><tspan
+           x="74.164146 74.850639 76.223656 77.458366 78.14489 78.967216 80.340233 81.574944 82.261436 82.809654 84.182671"
+           y="146.40869"
+           sodipodi:role="line"
+           id="tspan41307"
+           style="stroke-width:0.352778">Instruction</tspan><tspan
+           x="75.811272 77.184258 78.557274 79.792015 81.165001 82.538017"
+           y="149.37207"
+           sodipodi:role="line"
+           id="tspan41309"
+           style="stroke-width:0.352778">decode</tspan><tspan
+           x="87.748558 88.435051 89.808067 91.042778 91.729301 92.551628 93.924644 95.159355 95.845848 96.394066 97.767082"
+           y="153.01208"
+           sodipodi:role="line"
+           id="tspan41311"
+           style="stroke-width:0.352778">Instruction</tspan><tspan
+           x="89.395683 90.768669 92.141685 93.376427 94.749413 96.122429"
+           y="155.97534"
+           sodipodi:role="line"
+           id="tspan41313"
+           style="stroke-width:0.352778">decode</tspan><tspan
+           x="101.34039 102.02688 103.39989 104.63461 105.32113 106.14346 107.51644 108.75118 109.43768 109.98589 111.35891"
+           y="159.61536"
+           sodipodi:role="line"
+           id="tspan41315"
+           style="stroke-width:0.352778">Instruction</tspan><tspan
+           x="102.98504 104.35802 105.73104 106.96578 108.33877 109.71178"
+           y="162.57861"
+           sodipodi:role="line"
+           id="tspan41317"
+           style="stroke-width:0.352778">decode</tspan><tspan
+           x="114.90008 115.5866 116.95962 118.19433 118.88085 119.70315 121.07616 122.31091 122.9974 123.54562 124.91863"
+           y="166.18408"
+           sodipodi:role="line"
+           id="tspan41319"
+           style="stroke-width:0.352778">Instruction</tspan><tspan
+           x="116.54473 117.91775 119.29076 120.52551 121.89849 123.27151"
+           y="169.14734"
+           sodipodi:role="line"
+           id="tspan41321"
+           style="stroke-width:0.352778">decode</tspan><tspan
+           x="88.274559 89.921654 91.156395 92.529411 93.764122 95.137138 95.823631 96.371849 97.744865"
+           y="147.81885"
+           sodipodi:role="line"
+           id="tspan41323"
+           style="stroke-width:0.352778">Execution</tspan></text>
+      <path
+         d="m 127.38479,150.37594 h -13.57877 v -6.6033 h 13.57877 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41329" />
+      <path
+         d="m 113.81872,150.37594 h -13.57066 v -6.6033 h 13.57066 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41333" />
+      <path
+         d="M 100.23501,150.37594 H 86.65165 v -6.6033 h 13.58336 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41337" />
+      <path
+         d="M 86.65165,150.37594 H 73.06971 v -6.6033 h 13.58194 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41341" />
+      <path
+         d="M 73.06971,150.37594 H 59.49659 v -6.6033 h 13.57312 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41345" />
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.46944px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text41353"
+         x="114.76284"
+         y="147.81982"><tspan
+           x="114.76284 117.09402 117.91634 118.46456 119.15105 120.52407 121.3464 122.71941 124.0924 125.32714"
+           y="147.81982"
+           sodipodi:role="line"
+           id="tspan41349"
+           style="stroke-width:0.352778">Write-back</tspan><tspan
+           x="101.61059 103.25771 104.49242 105.86544 107.10018 108.47317 109.15969 109.70791 111.08092"
+           y="154.4231"
+           sodipodi:role="line"
+           id="tspan41351"
+           style="stroke-width:0.352778">Execution</tspan></text>
+      <path
+         d="m 140.83161,156.97854 h -13.4426 v -6.6029 h 13.4426 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41357" />
+      <path
+         d="m 127.3809,156.97854 h -13.57066 v -6.6029 h 13.57066 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41361" />
+      <path
+         d="M 113.82506,156.97854 H 100.2417 v -6.6029 h 13.58336 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41365" />
+      <path
+         d="M 100.235,156.97854 H 86.65306 v -6.6029 H 100.235 Z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41369" />
+      <path
+         d="M 86.65306,156.97854 H 73.08029 v -6.6029 h 13.57277 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41373" />
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.46944px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text41381"
+         x="128.27776"
+         y="154.42212"><tspan
+           x="128.27776 130.60893 131.43126 131.97948 132.66597 134.03899 134.86131 136.23433 137.60732 138.84206"
+           y="154.42212"
+           sodipodi:role="line"
+           id="tspan41377"
+           style="stroke-width:0.352778">Write-back</tspan><tspan
+           x="115.17489 116.82201 118.05676 119.42974 120.66448 122.0375 122.72399 123.27221 124.64523"
+           y="161.16614"
+           sodipodi:role="line"
+           id="tspan41379"
+           style="stroke-width:0.352778">Execution</tspan></text>
+      <path
+         d="m 154.41497,163.58144 h -13.52091 v -6.6029 h 13.52091 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41385" />
+      <path
+         d="m 140.89547,163.58144 h -13.5703 v -6.6029 h 13.5703 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41389" />
+      <path
+         d="M 127.38655,163.58144 H 113.8039 v -6.6029 h 13.58265 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41393" />
+      <path
+         d="m 113.82401,163.58144 h -13.58124 v -6.6029 h 13.58124 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41397" />
+      <path
+         d="M 100.23642,163.58144 H 86.6633 v -6.6029 h 13.57312 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41401" />
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.46944px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text41409"
+         x="141.86113"
+         y="161.16687"><tspan
+           x="141.86113 144.19228 145.0146 145.56282 146.24934 147.62233 148.44466 149.81767 151.19069 152.4254"
+           y="161.16687"
+           sodipodi:role="line"
+           id="tspan41405"
+           style="stroke-width:0.352778">Write-back</tspan><tspan
+           x="128.6891 130.33623 131.57094 132.94395 134.1787 135.55168 136.2382 136.78642 138.15944"
+           y="167.66638"
+           sodipodi:role="line"
+           id="tspan41407"
+           style="stroke-width:0.352778">Execution</tspan></text>
+      <path
+         d="m 349.54162,1099.8185 h -13.44189 v -6.6029 h 13.44189 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41419"
+         clip-path="url(#clipPath1479287)"
+         transform="translate(-181.61491,-929.63416)" />
+      <path
+         d="m 154.47953,170.18434 h -13.57171 v -6.6029 h 13.57171 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41423" />
+      <path
+         d="m 140.90182,170.18434 h -13.58336 v -6.6029 h 13.58336 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41427" />
+      <path
+         d="m 127.38585,170.18434 h -13.58124 v -6.6029 h 13.58124 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41431" />
+      <path
+         d="m 113.81978,170.18434 h -13.57277 v -6.6029 h 13.57277 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path41435" />
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.46944px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text41441"
+         x="155.37318"
+         y="167.66541"><tspan
+           x="155.37318 157.70433 158.52666 159.07487 159.7614 161.13441 161.95671 163.32973 164.70274 165.93745"
+           y="167.66541"
+           sodipodi:role="line"
+           id="tspan41439"
+           style="stroke-width:0.352778">Write-back</tspan></text>
+    </g>
+    <path
+       d="m 14.54808,174.84634 h 158.75"
+       style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path41445" />
+    <text
+       xml:space="preserve"
+       style="font-variant:normal;font-size:2.82222px;font-family:ITCFranklinGothicStd;-inkscape-font-specification:ITCFranklinGothicStd-Hvy;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+       id="text41451"
+       x="14.548283"
+       y="178.46228"><tspan
+         x="14.548283 16.072285 16.975407 18.894505 20.757175 22.676289 24.369617 25.216297 26.909626 27.75629 29.449619"
+         y="178.46228"
+         sodipodi:role="line"
+         id="tspan41449"
+         style="stroke-width:0.352778">FIGURE 4.44</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-variant:normal;font-size:2.82222px;font-family:ITCFranklinGothicStd;-inkscape-font-specification:ITCFranklinGothicStd-Hvy;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+       id="text41459"
+       x="33.965183"
+       y="178.46228"><tspan
+         x="33.965183 35.221073 36.293507 37.930408 39.567295 40.41396 41.54285 42.389515 44.082844 45.71973 47.356617 48.203297 49.049961 51.47707 53.170399 54.017063 55.145954 55.992619 57.62952 58.476185 60.169514 60.903294 62.427296 63.27396 64.967293 66.491295 68.128181 68.861961 70.385963 71.909966 73.433952 74.280632 75.973961 76.820641 78.457512 79.304192 80.941063 82.634422 83.481071 84.327751 85.964622 87.657951 88.504631 90.141533 90.988182 92.625084 94.261955 95.334404 96.971306 99.398399 100.24508 101.93841 103.06728 103.91396 104.78603 105.66091 107.18493 108.87826 109.72491 110.57159 112.20849 113.73248 114.86135 115.99026 117.68359 119.20757 120.33648 121.18313 122.87646 124.51336 126.03735 126.88403 127.73067 129.36757"
+         y="178.46228"
+         sodipodi:role="line"
+         id="tspan41453"
+         style="stroke-width:0.352778">Traditional multiple-clock-cycle pipeline diagram of ﬁ ve instructions in </tspan><tspan
+         x="130.21425 131.80879 132.65547 134.29234 135.98567 137.05812 138.75148 139.59813 141.29146 142.13814 143.83147"
+         y="178.46228"
+         sodipodi:role="line"
+         id="tspan41455"
+         style="stroke-width:0.352778">Figure 4.43</tspan><tspan
+         x="145.5248"
+         y="178.46228"
+         id="tspan41457"
+         style="stroke-width:0.352778">.</tspan></text>
+  </g>
+</svg>

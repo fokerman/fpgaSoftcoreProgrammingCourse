@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="85.293777mm"
+   height="25.161407mm"
+   viewBox="0 0 85.293777 25.161407"
+   version="1.1"
+   id="svg1660740"
+   inkscape:version="1.2.2 (1:1.2.2+202212051552+b0a8486541)"
+   sodipodi:docname="state_clock_F_4_3.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1660742"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.3266287"
+     inkscape:cx="122.11404"
+     inkscape:cy="175.63316"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs1660737">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath484492">
+      <g
+         id="g484496"
+         style="stroke-width:0.999999">
+        <path
+           d="m -194.27367,436.68394 h 85.43361 v 25.19856 h -85.43361 z"
+           id="path484494"
+           style="stroke-width:0.999999" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath486865">
+      <g
+         id="g486871"
+         style="stroke-width:0.999999">
+        <g
+           id="g486869"
+           style="stroke-width:0.999999"
+           transform="translate(-1.2815272e-6,-1.0501e-5)">
+          <path
+             d="M 139.31277,425.14201 H 75.561244 v 14.93026 h 63.751526 z"
+             id="path486867"
+             style="stroke-width:0.999999" />
+        </g>
+      </g>
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-138.0093,-39.146503)">
+    <g
+       id="g1661145"
+       transform="translate(0,-10.583333)">
+      <path
+         d="m 203.12877,56.24847 c 0,3.10233 -6.78568,5.61763 -15.15639,5.61763 -8.37036,0 -15.15639,-2.5153 -15.15639,-5.61763 0,-3.10268 6.78603,-5.61763 15.15639,-5.61763 8.37071,0 15.15639,2.51495 15.15639,5.61763"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="path2437" />
+      <path
+         d="m 203.12877,56.24847 c 0,3.10233 -6.78568,5.61763 -15.15639,5.61763 -8.37036,0 -15.15639,-2.5153 -15.15639,-5.61763 0,-3.10268 6.78603,-5.61763 15.15639,-5.61763 8.37071,0 15.15639,2.51495 15.15639,5.61763 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2439" />
+      <path
+         d="m 152.72988,61.49075 h 12.79349 V 49.81803 h -12.79349 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="path2443" />
+      <path
+         d="M 165.52337,61.49075 H 152.72988 V 49.81803 h 12.79349 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2445" />
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.8224px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text2453"
+         x="155.82237"
+         y="53.34729"><tspan
+           x="155.82237 157.70491 158.48953 160.05879 160.84341"
+           y="53.34729"
+           sodipodi:role="line"
+           id="tspan2447"
+           style="stroke-width:0.352778">State</tspan><tspan
+           x="154.09789 155.66714 156.29372 157.86296 160.21402 161.78328 163.35254"
+           y="56.734161"
+           sodipodi:role="line"
+           id="tspan2449"
+           style="stroke-width:0.352778">element</tspan><tspan
+           x="158.33148"
+           y="60.121033"
+           id="tspan2451"
+           style="stroke-width:0.352778">1</tspan></text>
+      <path
+         d="m 210.42175,61.4918 h 12.79313 V 49.81909 h -12.79313 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="path2455" />
+      <path
+         d="m -108.92826,448.4459 h -12.79313 v -11.67271 h 12.79313 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2465"
+         clip-path="url(#clipPath484492)"
+         transform="translate(332.14314,-386.9541)" />
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.8224px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text2477"
+         x="213.52312"
+         y="53.163147"><tspan
+           x="213.52312 215.40565 216.19029 217.75954 218.54416"
+           y="53.163147"
+           sodipodi:role="line"
+           id="tspan2467"
+           style="stroke-width:0.352778">State</tspan><tspan
+           x="211.79863 213.36789 213.99446 215.56371 217.91476 219.48402 221.05328"
+           y="56.550018"
+           sodipodi:role="line"
+           id="tspan2469"
+           style="stroke-width:0.352778">element</tspan><tspan
+           x="216.03223"
+           y="59.93689"
+           id="tspan2471"
+           style="stroke-width:0.352778">2</tspan><tspan
+           x="175.65782 177.69559 179.26485 181.61591 183.18517 183.81174 185.38098 186.95024 187.73486 188.36143 189.93069 191.49994 193.0692 193.69577 194.48039 195.10698 196.67622 198.24548 198.87206"
+           y="56.928223"
+           sodipodi:role="line"
+           id="tspan2473"
+           style="stroke-width:0.352778">Combinational logic</tspan><tspan
+           x="137.86873 139.90649 140.53308 142.10233 143.45708 144.86827 145.65291 147.0641 148.4753 149.88651 150.51308"
+           y="74.297272"
+           sodipodi:role="line"
+           id="tspan2475"
+           style="stroke-width:0.352778">Clock cycle</tspan></text>
+      <path
+         d="m 223.28085,66.65894 h -7.08554 v 6.74123 h -28.5436 v -6.74123 h -28.5429 v 6.74123 h -6.0258"
+         style="fill:none;stroke:#231f20;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2481" />
+      <path
+         d="m 165.52302,56.24706 h 5.49981"
+         style="fill:none;stroke:#231f20;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2485" />
+      <path
+         d="m 171.6483,55.97613 c -0.43744,-0.13229 -0.72178,-0.254 -1.0728,-0.39476 v 1.33491 c 0.12559,-0.06 0.63536,-0.26282 1.0728,-0.39476 0.46814,-0.14146 0.89253,-0.23847 1.16805,-0.27305 -0.27552,-0.0342 -0.69991,-0.13123 -1.16805,-0.27234"
+         style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="path2489" />
+      <path
+         d="m 203.12878,56.24847 h 5.49981"
+         style="fill:none;stroke:#231f20;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2493" />
+      <path
+         d="m 209.25406,55.97718 c -0.43744,-0.13229 -0.72178,-0.254 -1.0728,-0.39476 v 1.33491 c 0.12559,-0.06 0.63536,-0.26282 1.0728,-0.39511 0.46814,-0.14111 0.89253,-0.23777 1.16769,-0.27234 -0.27516,-0.0346 -0.69955,-0.13159 -1.16769,-0.2727"
+         style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="path2497" />
+    </g>
+    <g
+       id="g1661175"
+       transform="translate(-0.9605862)">
+      <path
+         d="M 121.70308,77.94994 H 242.70586"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path2501" />
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-size:2.82222px;font-family:ITCFranklinGothicStd;-inkscape-font-specification:ITCFranklinGothicStd-Hvy;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text2507"
+         x="121.70325"
+         y="81.56601"><tspan
+           x="121.70325 123.22725 124.13037 126.04947 127.91214 129.83125 131.52458 133.09261 134.78595 135.63261"
+           y="81.56601"
+           sodipodi:role="line"
+           id="tspan2505"
+           style="stroke-width:0.352778">FIGURE 4.3</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-size:2.82222px;font-family:ITCFranklinGothicStd;-inkscape-font-specification:ITCFranklinGothicStd-Hvy;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text2511"
+         x="140.14648"
+         y="81.56601"><tspan
+           x="140.14648 142.00916 143.70248 146.12959 147.76648 148.61314 150.25003 151.88693 153.01581 153.86249 155.55582 157.1927 158.82959 159.67625 161.244 162.09067 163.784 165.4209 166.26756 167.79156 168.49712 170.06487 171.58885 172.71774 174.35464 175.48352 177.17686 178.7446 180.43794 181.28461 182.97794 185.40504 187.09837 188.73528 189.86417 191.38815 192.09372 193.66145 195.29836 196.93524 198.57213 200.13986 201.26875 202.90564 204.59898 206.16672 207.69072 208.53738 210.23073 211.75471 213.3916 214.95937 216.59624 217.66869 219.36203 220.92976 222.45377 223.30045 224.99376 226.51778 228.21111 229.05777 230.58176 232.14951 233.22195 234.91528 235.76196 237.39883 238.52774 240.22107 241.85796"
+           y="81.56601"
+           sodipodi:role="line"
+           id="tspan2509"
+           style="stroke-width:0.352778">Combinational logic, state elements, and the clock are closely related.</tspan></text>
+    </g>
+    <g
+       id="g1661168"
+       transform="translate(7.8288138,-23.701463)">
+      <path
+         d="M 112.91368,110.90397 H 233.91646"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path3279" />
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-size:2.82222px;font-family:ITCFranklinGothicStd;-inkscape-font-specification:ITCFranklinGothicStd-Hvy;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text3285"
+         x="112.91386"
+         y="114.52001"><tspan
+           x="112.91386 114.43787 115.34097 117.26009 119.12275 121.04186 122.7352 124.31959 126.01292 126.85959"
+           y="114.52001"
+           sodipodi:role="line"
+           id="tspan3283"
+           style="stroke-width:0.352778">FIGURE 4.4</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-size:2.82222px;font-family:ITCFranklinGothicStd;-inkscape-font-specification:ITCFranklinGothicStd-Hvy;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text3293"
+         x="131.37402"
+         y="114.52001"><tspan
+           x="131.37402 133.23668 134.87358 136.45798 138.15131 139.78819 141.42508 143.11841 143.85219 144.98108 146.05353 146.90019 148.53708 150.17397 151.86731 152.93974 154.63309 156.26997 157.85437 160.28148 161.97481 163.1037 164.74059 166.43391 168.07082 169.76414 170.61081 172.30414 173.99747 175.52148 177.10588 178.74277 179.58942 180.4361 182.12944 184.33076 185.85475 187.43916 189.07605 190.66045 192.18445 193.31332 194.95023 196.0791 197.77243 199.35683 201.05017 201.89684 203.59016 206.01727 207.71062 209.3475 210.47639 212.06078 213.18967 214.88301 216.46739 218.10429 219.79762 221.38202 222.45445 224.1478 225.78468 227.42157 229.00598 230.64285 232.27975 233.91664"
+           y="114.52001"
+           sodipodi:role="line"
+           id="tspan3287"
+           style="stroke-width:0.352778">An edge-triggered methodology allows a state element to be read and </tspan><tspan
+           x="112.91386 115.1152 116.18764 117.03431 118.16319 119.29208 120.98542 122.62231 123.54969 124.39635 126.03324 126.96062 128.08952 129.72641 131.41974 132.34712 133.87112 135.50801 137.93512 139.62845 140.55583 142.07983 142.9265 144.61984 146.14383 147.78073 148.70811 150.2321 151.7561 153.28011 154.12677 155.82011 156.74748 158.94882 159.79549 160.92438 162.56126 164.25461 165.94794 167.07683 168.0042 169.52821 170.60065 172.29399 173.93088 175.05977 175.90643 177.54332 179.18021 180.10759 181.74448 182.67186 183.74431 185.3812 186.9052 188.59853 189.52591 190.6548 192.29169 193.92857 195.05746 195.98485 197.50883 199.20218 200.89551 201.74217 203.37906 204.30644 205.15311 206.84645 208.48334 210.12022 211.04761 212.1765 213.86983 214.79721 215.64388 217.28076 218.91765 220.61099 221.73988 223.43321 224.54799 226.9751 227.82176 229.45865 231.09555 232.22444 233.91777"
+           y="117.86999"
+           sodipodi:role="line"
+           id="tspan3289"
+           style="stroke-width:0.352778">written in the same clock cycle without creating a race that could lead to indeterminate </tspan><tspan
+           x="112.91386 114.55075 116.18764 117.31653 118.95341 119.87798 121.40198 123.03886 123.88554 125.57887 127.2722 128.7962 129.64287"
+           y="121.21996"
+           sodipodi:role="line"
+           id="tspan3291"
+           style="stroke-width:0.352778">data values. </tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:inline"
+     transform="translate(-138.0093,-39.146503)">
+    <g
+       id="g1661159"
+       transform="translate(2.05592,-52.992155)">
+      <path
+         d="m 201.07285,98.65729 c 0,3.10197 -6.78497,5.61693 -15.15533,5.61693 -8.36966,0 -15.15498,-2.51496 -15.15498,-5.61693 0,-3.10233 6.78532,-5.61728 15.15498,-5.61728 8.37036,0 15.15533,2.51495 15.15533,5.61728"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="path3235" />
+      <path
+         d="m 201.07285,98.65729 c 0,3.10197 -6.78497,5.61693 -15.15533,5.61693 -8.36966,0 -15.15498,-2.51496 -15.15498,-5.61693 0,-3.10233 6.78532,-5.61728 15.15498,-5.61728 8.37036,0 15.15533,2.51495 15.15533,5.61728 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path3237" />
+      <path
+         d="m 150.67749,102.84547 h 12.79242 v -8.376 h -12.79242 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="path3241" />
+      <path
+         d="m 163.47027,102.84547 h -12.79243 v -8.376 h 12.79243 z"
+         style="fill:none;stroke:#231f20;stroke-width:0.176389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path3243" />
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text3251"
+         x="153.76987"
+         y="97.998558"><tspan
+           x="153.76987 155.6523 156.43687 158.00603 158.7906"
+           y="97.998558"
+           sodipodi:role="line"
+           id="tspan3245"
+           style="stroke-width:0.352778">State</tspan><tspan
+           x="152.04549 153.61465 154.24118 155.81033 158.16125 159.73041 161.29956"
+           y="101.38522"
+           sodipodi:role="line"
+           id="tspan3247"
+           style="stroke-width:0.352778">element</tspan><tspan
+           x="173.60727 175.64491 177.21408 179.56499 181.13414 181.76068 183.32982 184.89899 185.68356 186.31009 187.87924 189.44841 191.01756 191.64409 192.42868 193.05521 194.62436 196.19351 196.82004"
+           y="99.550774"
+           sodipodi:role="line"
+           id="tspan3249"
+           style="stroke-width:0.352778">Combinational logic</tspan></text>
+      <path
+         d="m 163.47027,98.65588 h 5.49945"
+         style="fill:none;stroke:#231f20;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path3255" />
+      <path
+         d="m 169.59449,98.38495 c -0.43744,-0.13194 -0.72178,-0.254 -1.0728,-0.39476 v 1.33456 c 0.12559,-0.0596 0.63536,-0.26247 1.0728,-0.39476 0.46814,-0.14111 0.89253,-0.23777 1.16805,-0.2727 -0.27552,-0.0342 -0.69991,-0.13123 -1.16805,-0.27234"
+         style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="path3259" />
+      <path
+         d="m 133.38152,430.84748 h 5.79896 v 9.09249 H 75.693535 v -9.0939 h 5.499806"
+         style="fill:none;stroke:#231f20;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path3271"
+         clip-path="url(#clipPath486865)"
+         transform="translate(67.69133,-332.19019)" />
+      <path
+         d="m 149.50979,98.38495 c -0.43744,-0.13194 -0.72178,-0.254 -1.07279,-0.39476 v 1.33456 c 0.12559,-0.0596 0.63535,-0.26247 1.07279,-0.39476 0.46814,-0.14111 0.89253,-0.23777 1.16805,-0.2727 -0.27552,-0.0342 -0.69991,-0.13123 -1.16805,-0.27234"
+         style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="path3275" />
+    </g>
+  </g>
+</svg>
