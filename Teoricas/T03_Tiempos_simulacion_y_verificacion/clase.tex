@@ -472,7 +472,7 @@
     Si se violan los tiempos mínimos: \textbf{La entrada \texttt{D} cambia durante el tiempo de apertura.}\\
     \bigskip
     \pause
-    Se genera {\Large \textcolor{red}{\emph{metaestability}}.}\\
+    Se genera {\Large \textcolor{red}{\emph{metastability}}.}\\
     \begin{center}
     \includegraphics[scale=1.2]{img/ff_d-layer2.pdf} \hspace{2cm} \includegraphics[scale=1.7]{img/metaestabilidad.pdf}
     \end{center}
@@ -554,7 +554,7 @@
     \begin{textblock}{40}(105,65)
     \uncover<4->{
     \small
-    El tiempo desperdiciado en garantizar la secuencialidad de los eventos se denomina \textcolor{naranjauca}{\textbf{Secuencial Overhead}}.\\
+    El tiempo desperdiciado en garantizar la secuencialidad de los eventos se denomina \textcolor{naranjauca}{\textbf{Sequential Overhead}}.\\
     ($\text{t}_{\text{pcq}} + \text{t}_{\text{setup}}$)
     }
     \end{textblock}
@@ -580,7 +580,7 @@
     \begin{itemize}
     \item \textcolor{verdeuca}{Si el \emph{critical path} es muy \textbf{grande}, el diseño resulta \textbf{muy lento}.}
     \item \textcolor{verdeuca}{Si el \emph{critical path} es muy \textbf{chico}, en cada ciclo estamos haciendo \textbf{poco trabajo útil}}\\
-    \textcolor{verdeuca}{\small (la mayor parte del ciclo se pierde en el secuencial overhead).}
+    \textcolor{verdeuca}{\small (la mayor parte del ciclo se pierde en el sequential overhead).}
     \end{itemize}
     }
     \end{textblock}
@@ -652,7 +652,7 @@
     Validación \emph{hold time}:\\
     {$\text{t}_{\text{ccq}} + \text{t}_{\text{cd}}$ $>$ $\text{t}_{\text{hold}}$}\\
     {$35 + 25$ $>$ $70$}\\
-    {$55$ $>$ $70$}\\
+    {$60$ $>$ $70$}\\
     }
     \uncover<7->{
     \textcolor{rojo}{¡No verifica!\\}
@@ -802,7 +802,7 @@
 \begin{frame}[fragile,t]
     \frametitle{Clock Skew}
     El \emph{Clock Skew} incrementa los tiempos de $\text{t}_{\text{setup}}$ y $\text{t}_{\text{hold}}$.\\
-    \textcolor{verdeuca}{Aumenta el \textbf{secuencial overhead}, dejando menos tiempo para el trabajo útil por ciclo de reloj.}\\
+    \textcolor{verdeuca}{Aumenta el \textbf{sequential overhead}, dejando menos tiempo para el trabajo útil por ciclo de reloj.}\\
     \bigskip
     \uncover<2->{
     Se buscan reducir al\\
