@@ -1100,9 +1100,9 @@
     Para administrar los caracteres que llegan desde el teclado se utilizan \textbf{dos registros}.\\
     \bigskip
     \begin{itemize}
-     \item<2-> \textcolor{naranjauca}{\texttt{0xFE02}} - \textbf{\texttt{KBDR}} (\emph{keyboard Data Register})\\
+     \item<2-> \textcolor{naranjauca}{\texttt{0xFE02}} - \textbf{\texttt{KBDR}} (\emph{Keyboard Data Register})\\
      Mantiene en los 8 bits menos significativos el caracter que fue presionado.
-     \item<3-> \textcolor{naranjauca}{\texttt{0xFE00}} - \textbf{\texttt{KBSR}} (\emph{keyboard Status Register})\\
+     \item<3-> \textcolor{naranjauca}{\texttt{0xFE00}} - \textbf{\texttt{KBSR}} (\emph{Keyboard Status Register})\\
      Utiliza solo el bit más significativo como señal de sincronización.
     \end{itemize}
     \end{textblock}
@@ -1149,13 +1149,13 @@
     \begin{textblock}{140}(10,60)
     \uncover<4->{
     \textcolor{verdeuca}{
-    Si \texttt{KBSR[15]} = 1, el código ASCII en \texttt{KBDR[7:0]} fue leído por el monitor.\\
+    Si \texttt{DSR[15]} = 1, el código ASCII en \texttt{DDR[7:0]} fue leído por el monitor.\\
     Ahora se puede escribir un nuevo caracter y setear a cero la señal de sincronización.\\}
     }
     \bigskip
     \uncover<5->{
     \textcolor{verdeuca}{
-    Si \texttt{KBSR[15]} = 0, el código ASCII en \texttt{KBDR[7:0]} está a la espera de ser leído por el monitor.\\
+    Si \texttt{DSR[15]} = 0, el código ASCII en \texttt{DDR[7:0]} está a la espera de ser leído por el monitor.\\
     En este estado, se debe esperar a que el monitor lea para escribir el nuevo caracter.\\}
     }
     \end{textblock}
