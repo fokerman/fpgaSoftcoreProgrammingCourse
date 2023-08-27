@@ -211,7 +211,7 @@
     \begin{itemize}
     \setlength\itemsep{0cm}
      \item \footnotesize \textbf{Keyboard data register (KBDR)}\\ Mantiene el código ASCII de la tecla presionada.
-     \item \footnotesize \textbf{keyboard status register (KBSR)}\\ Mantiene información del estado de la tecla presionada.
+     \item \footnotesize \textbf{Keyboard status register (KBSR)}\\ Mantiene información del estado de la tecla presionada.
     \end{itemize}
     }
     \uncover<3->{
@@ -797,7 +797,7 @@
     \vspace{0.2cm}
     \uncover<3->{
     \textcolor{verdeuca}{Notar que los \emph{flags} también son alterados cuando\\ se lee o escribe un dato en memoria.}
-    \textcolor{verdeuca}{Además el\\ desplazamiento está limitado entre -255 y +256.}\\
+    \textcolor{verdeuca}{Además el\\ desplazamiento está limitado entre -256 y +255.}\\
     }
     \vspace{0.2cm}
     \uncover<4->{
@@ -1083,7 +1083,7 @@
      \item<3-> \textcolor{naranjauca}{\texttt{0x3000} a \texttt{0xFDFF}} - \emph{User space}\\
      Memoria sin privilegios. Espacio para todos los programas de usuario.
      \item<4-> \textcolor{naranjauca}{\texttt{0xFE00} a \texttt{0xFFFF}} - \emph{I/O space}\\
-     Memoria pivilegiada. Espacio donde se mapean los registros de entrada salida.
+     Memoria privilegiada. Espacio donde se mapean los registros de entrada salida.
     \end{itemize}
     \end{textblock}
     \begin{textblock}{140}(10,80)
@@ -1097,12 +1097,12 @@
     \frametitle{Entrada/Salida - Dispositivo de entrada (\emph{Keyboard})}
     \begin{textblock}{65}(100,25) \includegraphics[scale=1]{imgBook/lc3_device_registers-layer1.pdf} \end{textblock}
     \begin{textblock}{75}(10,12)
-    Para administrar los caracteres que llega desde el teclado se utilizan \textbf{dos registros}.\\
+    Para administrar los caracteres que llegan desde el teclado se utilizan \textbf{dos registros}.\\
     \bigskip
     \begin{itemize}
-     \item<2-> \textcolor{naranjauca}{\texttt{0xFE02}} - \textbf{\texttt{KBDR}} (\emph{keyboard Data Register})\\
+     \item<2-> \textcolor{naranjauca}{\texttt{0xFE02}} - \textbf{\texttt{KBDR}} (\emph{Keyboard Data Register})\\
      Mantiene en los 8 bits menos significativos el caracter que fue presionado.
-     \item<3-> \textcolor{naranjauca}{\texttt{0xFE00}} - \textbf{\texttt{KBSR}} (\emph{keyboard Status Register})\\
+     \item<3-> \textcolor{naranjauca}{\texttt{0xFE00}} - \textbf{\texttt{KBSR}} (\emph{Keyboard Status Register})\\
      Utiliza solo el bit más significativo como señal de sincronización.
     \end{itemize}
     \end{textblock}
@@ -1149,13 +1149,13 @@
     \begin{textblock}{140}(10,60)
     \uncover<4->{
     \textcolor{verdeuca}{
-    Si \texttt{KBSR[15]} = 1, el código ASCII en \texttt{KBDR[7:0]} fue leído por el monitor.\\
+    Si \texttt{DSR[15]} = 1, el código ASCII en \texttt{DDR[7:0]} fue leído por el monitor.\\
     Ahora se puede escribir un nuevo caracter y setear a cero la señal de sincronización.\\}
     }
     \bigskip
     \uncover<5->{
     \textcolor{verdeuca}{
-    Si \texttt{KBSR[15]} = 0, el código ASCII en \texttt{KBDR[7:0]} está a la espera de ser leído por el monitor.\\
+    Si \texttt{DSR[15]} = 0, el código ASCII en \texttt{DDR[7:0]} está a la espera de ser leído por el monitor.\\
     En este estado, se debe esperar a que el monitor lea para escribir el nuevo caracter.\\}
     }
     \end{textblock}

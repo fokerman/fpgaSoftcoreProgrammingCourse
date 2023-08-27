@@ -47,7 +47,7 @@
 \begin{frame}[fragile,t]
     \frametitle{Arquitectura \texttt{OrgaSmall}}
     \texttt{OrgaSmall} es un procesador (\emph{system on chip}) diseñado e implementado con fines didácticos.\\
-    \textcolor{verdeuca}{Su implementación en \emph{Verilog} se denominada \textbf{\texttt{OrgaSmallSystem}}.}\\
+    \textcolor{verdeuca}{Su implementación en \emph{Verilog} se denomina \textbf{\texttt{OrgaSmallSystem}}.}\\
     \begin{textblock}{110}(11,23)
     \only<2->{\includegraphics[scale=0.64]{img/arquitectura_micro_IO.pdf}}
     \end{textblock}
@@ -1208,7 +1208,7 @@ endmodule
 \begin{lstlisting}
 SET R7, 0xFB  ; set STACK
 SET R0, interrupt_handler
-STR  [0xFF], R0 ; Set Interrupt Rutine
+STR  [0xFF], R0 ; Set Interrupt Routine
 SET R0, 0x10
 LOADF R0 ; Set Interrupt Flag
 
@@ -1270,7 +1270,7 @@ data:     DB 0x00
 ; 0xFC = port Output
 ; 0xFD = port Input
 ; 0xFE = port Interrupt
-; 0xFF = Rutine pointer
+; 0xFF = Routine pointer
 \end{lstlisting}
     \end{textblock}
     \begin{textblock}{40}(110,10)
