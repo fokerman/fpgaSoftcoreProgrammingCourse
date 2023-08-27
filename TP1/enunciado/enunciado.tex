@@ -101,9 +101,9 @@ En caso que lo consideren necesario puede alterar alguna de estas característic
     \item Aritméticas y lógicas: Addition, Subtraction, Logic Or, Logic And, Logic Not, Compare, Logical Shift Right, Logical Shift Left. Estas deben operar mínimamente con cualquier registro de propósito general.
     \item CopyRegister: Instrucción para copiar el contenido de un registro en otro.
     \item Saltos: Jump, Jump Equal, Jump Not Equal
-    \item Subrutinas: callSubrutine, ReturnSubrutine. Instrucciones para llamar a subrutinas, estas instrucciones se pueden implementar utilizando la pila o utilizando registros específicos donde almacenar la dirección de retorno.
+    \item Subrutinas: callSubroutine, ReturnSubroutine. Instrucciones para llamar a subrutinas, estas instrucciones se pueden implementar utilizando la pila o utilizando registros específicos donde almacenar la dirección de retorno.
     \item GetFlags: Instrucción que permita leer los Flags, ya sea escribiéndolos en un registro o en memoria.
-    \item Memoria: writeToMem, readFormMem. Instrucciones para leer y escribir en memoria.
+    \item Memoria: writeToMem, readFromMem. Instrucciones para leer y escribir en memoria.
     \item SetRegister: Instrucción para asignar un valor inmediato a un registro.
 \end{itemize}
 
@@ -142,7 +142,7 @@ Utilizando como base las características enunciadas en el punto anterior, se pi
 
 \item Definir una codificación para cada una de las instrucciones, indicar los campos y el comportamiento que debe realizar el decodificador de instrucciones para tomar cada uno de los campos.
 
-\item Definir un lenguaje ensamblador, indicar lo nemónicos de cada instrucción y como se indican los parámetros. El lenguaje debe incluir palabras reservas para definir constantes en memoria y resolver etiquetas.
+\item Definir un lenguaje ensamblador, indicar lo nemónicos de cada instrucción y como se indican los parámetros. El lenguaje debe incluir palabras reservadas para definir constantes en memoria y resolver etiquetas.
 
 \item Desarrollar un programa que tome un archivo de texto y construya un archivo ensamblado. El programa debe retornar otro archivo de texto codificando los bytes en caracteres hexadecimales. Este archivo se utilizará luego como entrada de la memoria de código. Se recomienda realizar el desarrollo en \texttt{Python}.
 
@@ -232,7 +232,7 @@ Desarrollar el código ensamblador del juego electrónico \textbf{Simon}. Las 4 
 
  \item Desarrollar el código \texttt{Verilog} para conectar los puertos de entrada/salida del procesador a los leds y pulsadores.
  
- \item Desarrollar el código de configuración de \emph{constrains} para conectar el circuito a los puertos correspondientes de la placa de pruebas.
+ \item Desarrollar el código de configuración de \emph{constraints} para conectar el circuito a los puertos correspondientes de la placa de pruebas.
  
  \item Probar experimentalmente el código desarrollado en las dos organizaciones de procesador implementadas. Tener en cuenta que la temporización de los eventos en ambas organizaciones será diferente, por lo que es fundamental dejar el código ensamblador preparado para alterar las constantes de temporización en el caso de ser necesario.
 \end{itemize}
